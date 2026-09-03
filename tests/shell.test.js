@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { renderNav } from '../src/shell/nav.js';
 import { renderFooter } from '../src/shell/footer.js';
-import home from '../content/home.json';
+import home from '../content/home.json' with { type: 'json' };
 import { norm } from './util.js';
 
 const text = (html) => norm(html.replace(/<[^>]+>/g, ' '));

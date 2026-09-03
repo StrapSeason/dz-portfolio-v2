@@ -1,4 +1,4 @@
-import home from '../../content/home.json';
+import home from '../../content/home.json' with { type: 'json' };
 
 const byHint = (hint, tag) => home.records.filter((r) => r.hint === hint && (!tag || r.tag === tag)).map((r) => r.text);
 
