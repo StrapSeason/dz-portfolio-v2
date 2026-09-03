@@ -5,11 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex" />
   <title>Styleguide — Instrument</title>
-  <link rel="icon" href="/media/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="/src/styles/tokens.css" />
-  <link rel="stylesheet" href="/src/styles/base.css" />
-  <link rel="stylesheet" href="/src/styles/layout.css" />
-  <link rel="stylesheet" href="/src/styles/components.css" />
+  <link rel="icon" href="/dz-portfolio-v2/media/favicon.svg" type="image/svg+xml" />
   <style>
     .sg { padding: var(--space-3) var(--pad); display: grid; gap: var(--space-4); }
     .sg-block { display: grid; gap: var(--space-2); }
@@ -19,6 +15,11 @@
     .swatch { padding: 14px; border: 1px solid var(--rule); font-family: var(--font-mono); font-size: 11px; }
     .swatch i { display: block; height: 44px; margin-bottom: 8px; border: 1px solid var(--rule); }
   </style>
+  <script type="module" crossorigin src="/dz-portfolio-v2/assets/styleguide-DpPTxfft.js"></script>
+  <link rel="modulepreload" crossorigin href="/dz-portfolio-v2/assets/components-BrcYL6Z0.js">
+  <link rel="modulepreload" crossorigin href="/dz-portfolio-v2/assets/tabs-Ba6MwJxF.js">
+  <link rel="modulepreload" crossorigin href="/dz-portfolio-v2/assets/video-DrOD5u1L.js">
+  <link rel="stylesheet" crossorigin href="/dz-portfolio-v2/assets/components-xx7rCA-z.css">
 </head>
 <body class="ground">
   <div class="page" id="top">
@@ -85,7 +86,7 @@
         <p class="label">Plate — annotated media with title block; caption sits outside the clip box</p>
         <figure class="plate">
           <div class="plate__media">
-            <img src="/media/lumery-product-front.png" alt="Front view of Lumery smart glasses" width="1920" height="1080" style="object-position: 50% 45%" />
+            <img src="/dz-portfolio-v2/media/lumery-product-front.png" alt="Front view of Lumery smart glasses" width="1920" height="1080" style="object-position: 50% 45%" />
             <svg class="plate__annot" viewBox="0 0 1000 562" preserveAspectRatio="none" aria-hidden="true">
               <line class="tick" x1="180" y1="500" x2="820" y2="500" /><text x="440" y="520">FRONT · WIDTH</text>
               <circle cx="205" cy="270" r="26" /><text x="240" y="250">CAMERA L</text>
@@ -100,22 +101,22 @@
       <section class="sg-block" data-component="figure">
         <p class="label">Figure with caption</p>
         <div class="grid-2">
-          <figure class="figure"><div class="figure__media"><img src="/media/lumery-components-left.png" alt="Lumery left temple architecture with camera, processor and speaker" width="1920" height="1072" loading="lazy" /></div><figcaption><span>Left side / camera · SoC · speaker</span></figcaption></figure>
-          <figure class="figure"><div class="figure__media"><img src="/media/lumery-components-right.png" alt="Lumery right temple architecture with battery and LiDAR" width="1920" height="1072" loading="lazy" /></div><figcaption><span>Right side / battery · LiDAR</span></figcaption></figure>
+          <figure class="figure"><div class="figure__media"><img src="/dz-portfolio-v2/media/lumery-components-left.png" alt="Lumery left temple architecture with camera, processor and speaker" width="1920" height="1072" loading="lazy" /></div><figcaption><span>Left side / camera · SoC · speaker</span></figcaption></figure>
+          <figure class="figure"><div class="figure__media"><img src="/dz-portfolio-v2/media/lumery-components-right.png" alt="Lumery right temple architecture with battery and LiDAR" width="1920" height="1072" loading="lazy" /></div><figcaption><span>Right side / battery · LiDAR</span></figcaption></figure>
         </div>
       </section>
 
       <section class="sg-block" data-component="video">
         <p class="label">Video frame — poster first, nothing loads until play</p>
         <div class="video" style="max-width: 640px">
-          <video src="/media/particle-video.mp4" poster="/media/lumery-glasses.jpg" preload="metadata" playsinline muted width="854" height="480"></video>
+          <video src="/dz-portfolio-v2/media/particle-video.mp4" poster="/dz-portfolio-v2/media/lumery-glasses.jpg" preload="metadata" playsinline muted width="854" height="480"></video>
           <button class="video__play" type="button">Play</button>
         </div>
       </section>
 
       <section class="sg-block" data-component="case-row">
         <p class="label">Case row (work index)</p>
-        <a class="case-row" href="#top"><img src="/media/lumery-glasses.jpg" alt="Lumery smart glasses prototype" width="800" height="600" loading="lazy" /><h2>Lumery</h2><p>An intelligent glasses ecosystem</p><div class="chips"><span class="chip">Product Strategy</span><span class="chip">UX/UI</span><span class="chip">2025—26</span></div></a>
+        <a class="case-row" href="#top"><img src="/dz-portfolio-v2/media/lumery-glasses.jpg" alt="Lumery smart glasses prototype" width="800" height="600" loading="lazy" /><h2>Lumery</h2><p>An intelligent glasses ecosystem</p><div class="chips"><span class="chip">Product Strategy</span><span class="chip">UX/UI</span><span class="chip">2025—26</span></div></a>
       </section>
 
       <section class="sg-block" data-component="table">
@@ -150,6 +151,5 @@
     </main>
     <div data-shell="footer"></div>
   </div>
-  <script type="module" src="/src/pages/styleguide.js"></script>
 </body>
 </html>

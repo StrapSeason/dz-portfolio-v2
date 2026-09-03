@@ -1,0 +1,1 @@
+function n(r=document){r.querySelectorAll(".video").forEach(i=>{const e=i.querySelector("video"),t=i.querySelector(".video__play");!e||!t||(t.addEventListener("click",()=>{e.play(),i.classList.add("is-playing"),e.controls=!0}),e.addEventListener("pause",()=>{e.currentTime===0&&i.classList.remove("is-playing")}))})}export{n as i};

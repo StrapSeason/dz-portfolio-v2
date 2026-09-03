@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex" />
   <title>Lab — 3D objects</title>
-  <link rel="icon" href="/media/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="/src/styles/tokens.css" /><link rel="stylesheet" href="/src/styles/base.css" /><link rel="stylesheet" href="/src/styles/layout.css" /><link rel="stylesheet" href="/src/styles/components.css" />
+  <link rel="icon" href="/dz-portfolio-v2/media/favicon.svg" type="image/svg+xml" />
   <style>
     .lab { padding: var(--space-3) var(--pad); display: grid; gap: var(--space-4); }
     .scene { display: grid; gap: 10px; }
@@ -12,6 +11,16 @@
     .scene__stage canvas { position: absolute; inset: 0; width: 100% !important; height: 100% !important; }
     .scene__meta { display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: var(--step--1); letter-spacing: var(--tracking-label); text-transform: uppercase; color: var(--muted); }
   </style>
+  <script type="module" crossorigin src="/dz-portfolio-v2/assets/lab-BXsauhIw.js"></script>
+  <link rel="modulepreload" crossorigin href="/dz-portfolio-v2/assets/components-BrcYL6Z0.js">
+  <link rel="modulepreload" crossorigin href="/dz-portfolio-v2/assets/scene-Bo27Mj-a.js">
+  <link rel="modulepreload" crossorigin href="/dz-portfolio-v2/assets/_shared-DW27rZap.js">
+  <link rel="modulepreload" crossorigin href="/dz-portfolio-v2/assets/home-BUbd6P5q.js">
+  <link rel="modulepreload" crossorigin href="/dz-portfolio-v2/assets/lumery-COxSeKAj.js">
+  <link rel="modulepreload" crossorigin href="/dz-portfolio-v2/assets/aleria-BRfOpR89.js">
+  <link rel="modulepreload" crossorigin href="/dz-portfolio-v2/assets/bitronix-CE5N7Tfu.js">
+  <link rel="modulepreload" crossorigin href="/dz-portfolio-v2/assets/every-bali-BFvkDn4X.js">
+  <link rel="stylesheet" crossorigin href="/dz-portfolio-v2/assets/components-xx7rCA-z.css">
 </head>
 <body class="ground"><div class="page"><main class="lab">
   <h1 class="display h1">Lab</h1>
@@ -21,5 +30,4 @@
   <section class="scene" data-scene="bitronix"><div class="scene__stage" data-stage></div><div class="scene__meta"><span>bitronix · character</span><span data-fps>— fps</span></div></section>
   <section class="scene" data-scene="every-bali"><div class="scene__stage" data-stage></div><div class="scene__meta"><span>every bali · masterplan</span><span data-fps>— fps</span></div></section>
 </main></div>
-<script type="module" src="/src/pages/lab.js"></script>
 </body></html>
