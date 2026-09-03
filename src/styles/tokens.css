@@ -1,0 +1,95 @@
+/* Design tokens — direction A · Instrument (see docs/DIRECTION.md)
+   Light = drafting paper. Dark = blueprint. Every colour on the site comes
+   from here; no literal colours in other stylesheets. */
+
+:root {
+  /* colour — paper */
+  --bg: #e7ebe9;
+  --surface: #f4f6f5;
+  --surface-2: #dfe4e2;
+  --ink: #101820;
+  --muted: #56616b;
+  --accent: #1f3bd6;
+  --accent-ink: #ffffff;
+  --rule: rgba(16, 24, 32, 0.16);
+  --rule-soft: rgba(16, 24, 32, 0.08);
+  --grid: rgba(16, 24, 32, 0.075);
+  --shadow: 0 30px 60px -40px rgba(16, 24, 32, 0.5);
+  --focus: #1f3bd6;
+
+  /* type */
+  --font-display: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body: "Geist", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --wdth-display: 118;
+  --wdth-narrow: 96;
+
+  /* type scale — 1.25 ratio from 16px, fluid at the top */
+  --step--1: 0.8rem;                            /* 12.8 — labels, captions */
+  --step-0: 1rem;                               /* 16   — body */
+  --step-1: 1.25rem;                            /* 20   — lead */
+  --step-2: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);      /* 24–32 — h3 */
+  --step-3: clamp(1.9rem, 1.4rem + 2.4vw, 3.4rem);    /* 30–54 — h2 / statement */
+  --step-4: clamp(2.75rem, 1.5rem + 5vw, 5.75rem);    /* 44–92 — h1 */
+  --step-5: clamp(4rem, 2rem + 9vw, 10rem);           /* 64–160 — case title */
+
+  --leading-tight: 0.92;
+  --leading-snug: 1.08;
+  --leading-body: 1.55;
+  --tracking-display: -0.035em;
+  --tracking-label: 0.12em;
+
+  /* spacing — 8px rhythm */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 2rem;
+  --space-4: 4rem;
+  --pad: clamp(20px, 4vw, 64px);
+  --measure: 62ch;
+  --grid-cell: 48px;
+
+  /* shape */
+  --radius-plate: 0;
+  --radius-control: 4px;
+
+  /* motion */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-draw: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 160ms;
+  --dur-base: 400ms;
+  --dur-slow: 1400ms;
+
+  color-scheme: light dark;
+}
+
+/* Blueprint — the deliberate second world */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0c1b2a;
+    --surface: #12243a;
+    --surface-2: #0a1522;
+    --ink: #e6ecf1;
+    --muted: #93a3b3;
+    --accent: #8db1ff;
+    --accent-ink: #0c1b2a;
+    --rule: rgba(230, 236, 241, 0.18);
+    --rule-soft: rgba(230, 236, 241, 0.09);
+    --grid: rgba(230, 236, 241, 0.07);
+    --shadow: 0 30px 60px -40px rgba(0, 0, 0, 0.8);
+    --focus: #8db1ff;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0c1b2a;
+  --surface: #12243a;
+  --surface-2: #0a1522;
+  --ink: #e6ecf1;
+  --muted: #93a3b3;
+  --accent: #8db1ff;
+  --accent-ink: #0c1b2a;
+  --rule: rgba(230, 236, 241, 0.18);
+  --rule-soft: rgba(230, 236, 241, 0.09);
+  --grid: rgba(230, 236, 241, 0.07);
+  --shadow: 0 30px 60px -40px rgba(0, 0, 0, 0.8);
+  --focus: #8db1ff;
+}

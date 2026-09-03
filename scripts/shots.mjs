@@ -10,7 +10,9 @@ const widths = [1440, 1024, 390];
 const dir = `docs/shots/phase-${phase}`;
 mkdirSync(dir, { recursive: true });
 
-const pages = ['index', 'case-lumery', 'case-aleria', 'case-bitronix', 'case-every-bali', 'styleguide', 'lab']
+import { readdirSync } from 'node:fs';
+const concepts = existsSync('dist/concepts') ? readdirSync('dist/concepts').filter((f) => f.endsWith('.html')).map((f) => `concepts/${f.replace('.html', '')}`) : [];
+const pages = ['index', 'case-lumery', 'case-aleria', 'case-bitronix', 'case-every-bali', 'styleguide', 'lab', ...concepts]
   .filter((p) => existsSync(`dist/${p}.html`) && !/dz-stub/.test(readFileSync(`dist/${p}.html`, 'utf8')))
   .filter((p) => !only || only.includes(p));
 
@@ -27,7 +29,7 @@ for (const p of pages) {
     await page.goto(`http://localhost:4174/${p}.html`, { waitUntil: 'networkidle' });
     await page.waitForTimeout(600);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
-    await page.screenshot({ path: `${dir}/${p}-${w}.png`, fullPage: true });
+    await page.screenshot({ path: `${dir}/${p.replace('/', '-')}-${w}.png`, fullPage: true });
     report[`${p}-${w}`] = { errors, overflow };
     if (errors.length || overflow > 0) failed = true;
     await page.close();

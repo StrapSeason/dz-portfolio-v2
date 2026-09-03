@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Concept B — Darkroom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  /* DIRECTION: editorial darkroom — a photographer's light table for a designer whose work is renders and film.
+     FEELING: hushed, warm, expensive, unhurried, a little theatrical.
+     UNFORGETTABLE: masked full-bleed stills that crossfade like a slide carousel; type set in ivory on oxblood. */
+  :root {
+    --bg: #1b1412; --surface: #241b18; --ink: #efe6d8; --muted: #a8988a;
+    --accent: #c9a227; --rule: rgba(239, 230, 216, .16);
+    --display: "Instrument Serif", Georgia, "Times New Roman", serif;
+    --body: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+    --pad: clamp(20px, 4vw, 64px);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  body::before { /* darkroom light falloff + grain */
+    content: ""; position: fixed; inset: 0; pointer-events: none;
+    background: radial-gradient(1200px 700px at 70% 20%, rgba(201,162,39,.10), transparent 60%),
+                radial-gradient(900px 600px at 10% 90%, rgba(239,230,216,.05), transparent 60%);
+  }
+  body::after { content: ""; position: fixed; inset: 0; pointer-events: none; opacity: .35; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .12 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+  a { color: inherit; text-decoration: none; }
+  .label { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+
+  header { position: absolute; inset: 0 0 auto 0; z-index: 5; display: flex; justify-content: space-between; align-items: center; padding: 26px var(--pad); mix-blend-mode: difference; color: #fff; }
+  .wordmark { font-family: var(--display); font-size: 22px; letter-spacing: .01em; }
+  nav { display: flex; gap: 34px; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; }
+  nav a:hover, nav a:focus-visible { text-decoration: underline; text-underline-offset: 6px; outline: none; }
+
+  /* ---- hero: masked still, carousel crossfade ---- */
+  .hero { position: relative; min-height: 100vh; display: grid; align-items: end; padding: 0 var(--pad) 56px; isolation: isolate; }
+  .still { position: absolute; inset: 0; z-index: -1; overflow: hidden; }
+  .still img, .still video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: sepia(.18) contrast(1.05) brightness(.72); }
+  .still::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(27,20,18,.35) 0%, rgba(27,20,18,0) 35%, rgba(27,20,18,.85) 100%); }
+  .mask { position: absolute; inset: 8vh var(--pad); border: 1px solid rgba(239,230,216,.28); pointer-events: none; }
+  .mask::before, .mask::after { content: ""; position: absolute; width: 18px; height: 18px; border: 1px solid var(--accent); }
+  .mask::before { top: -1px; left: -1px; border-right: 0; border-bottom: 0; }
+  .mask::after { bottom: -1px; right: -1px; border-left: 0; border-top: 0; }
+  .eyebrow { font-size: 11.5px; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin: 0 0 22px; }
+  h1 { margin: 0; font-family: var(--display); font-weight: 400; font-size: clamp(56px, 9.5vw, 156px); line-height: .9; letter-spacing: -.02em; text-wrap: balance; }
+  h1 em { font-style: italic; color: var(--accent); }
+  .lead { max-width: 44ch; margin: 28px 0 0; font-size: 18px; color: var(--muted); }
+  .cta { display: inline-flex; gap: 12px; align-items: baseline; margin-top: 30px; font-family: var(--display); font-size: 22px; border-bottom: 1px solid var(--accent); padding-bottom: 4px; }
+  .cta:hover, .cta:focus-visible { color: var(--accent); outline: none; }
+  .hint { position: absolute; right: var(--pad); bottom: 60px; writing-mode: vertical-rl; }
+
+  /* ---- light table ---- */
+  .table { padding: 96px var(--pad); border-top: 1px solid var(--rule); }
+  .table-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 36px; }
+  .table-head h2 { margin: 0; font-family: var(--display); font-weight: 400; font-size: 40px; }
+  .slides { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.2fr; gap: 18px; align-items: end; }
+  .slide { position: relative; background: var(--surface); padding: 12px 12px 18px; border: 1px solid var(--rule); box-shadow: 0 40px 80px -40px #000; transition: transform .5s cubic-bezier(.2,.8,.2,1); }
+  .slide:hover, .slide:focus-visible { transform: translateY(-8px) rotate(-.4deg); outline: none; }
+  .slide img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; filter: sepia(.1) contrast(1.05); }
+  .slide h3 { margin: 14px 0 2px; font-family: var(--display); font-weight: 400; font-size: 28px; }
+  .slide p { margin: 0; color: var(--muted); font-size: 14px; }
+  .slide .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .slide .chips span { font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+
+  /* ---- Lumery opening ---- */
+  .case { position: relative; min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; align-items: end; gap: 48px; padding: 96px var(--pad) 72px; isolation: isolate; }
+  .case .still img { object-position: 60% 40%; filter: sepia(.25) contrast(1.08) brightness(.6); }
+  .case .kicker { margin: 0 0 18px; color: var(--accent); }
+  .case h1 { font-size: clamp(80px, 14vw, 220px); }
+  .case .lead { font-size: 20px; color: var(--ink); }
+  .facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; border-top: 1px solid var(--rule); padding-top: 18px; align-self: end; }
+  .facts small { display: block; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .facts span { display: block; margin-top: 8px; font-family: var(--display); font-size: 22px; }
+  .statement { grid-column: 1 / -1; margin: 36px 0 0; font-family: var(--display); font-weight: 400; font-size: clamp(30px, 4.4vw, 64px); line-height: 1.02; letter-spacing: -.015em; max-width: 24ch; text-wrap: balance; }
+  .statement em { color: var(--accent); }
+  .case h2 { grid-column: 1 / -1; margin: 20px 0 0; font-weight: 500; font-size: 17px; letter-spacing: .02em; color: var(--muted); }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .still img { animation: breathe 14s ease-in-out infinite alternate; }
+    @keyframes breathe { to { transform: scale(1.05); } }
+  }
+  @media (max-width: 900px) { .slides { grid-template-columns: 1fr 1fr; } .case { grid-template-columns: 1fr; } .hint { display: none; } }
+</style>
+</head>
+<body>
+<header>
+  <a class="wordmark" href="#">Daniil Zinoviev</a>
+  <nav><a href="#">Work</a><a href="#">About</a><a href="#">Contact</a></nav>
+</header>
+
+<section class="hero">
+  <div class="still"><video src="/media/particle-video.mp4" poster="/media/lumery-glasses.jpg" muted playsinline preload="metadata" aria-hidden="true"></video></div>
+  <div class="mask" aria-hidden="true"></div>
+  <div>
+    <p class="eyebrow">Moscow · Working internationally · Since 2022</p>
+    <h1>Multidisciplinary<br /><em>Art Director</em> &amp;<br />Brand Designer</h1>
+    <p class="lead">I build visual systems, campaigns and digital products for AI, fintech and emerging technology — from concept and product logic to motion and launch.</p>
+    <a class="cta" href="#"><span>Selected</span><span>work</span></a>
+  </div>
+  <p class="label hint">Scroll</p>
+</section>
+
+<section class="table">
+  <div class="table-head"><h2>Selected work</h2><span class="label">2024—2026</span></div>
+  <div class="slides">
+    <a class="slide" href="#"><img src="/media/lumery-glasses.jpg" alt="Lumery smart glasses prototype" /><h3>Lumery</h3><p>An intelligent glasses ecosystem</p><div class="chips"><span>Product Strategy</span><span>UX/UI</span><span>2025—26</span></div></a>
+    <a class="slide" href="#"><img src="/media/aleria-ecosystem.jpg" alt="" /><h3>Aleria</h3><p>Brand direction for sovereign AI</p><div class="chips"><span>Brand Direction</span><span>Product</span><span>Motion</span><span>2024—25</span></div></a>
+    <a class="slide" href="#"><img src="/media/bitronix-robot.png" alt="" /><h3>Bitronix</h3><p>A character-led fintech universe</p><div class="chips"><span>Art Direction</span><span>Motion</span></div></a>
+    <a class="slide" href="#"><img src="/media/every-bali-interior.png" alt="" /><h3>Every Bali</h3><p>A digital property experience</p><div class="chips"><span>UX/UI</span><span>2026</span></div></a>
+  </div>
+</section>
+
+<section class="case">
+  <div class="still"><img src="/media/lumery-hero-system.png" alt="Lumery smart glasses and internal electronic architecture" /></div>
+  <div class="mask" aria-hidden="true"></div>
+  <div>
+    <p class="kicker label">AI wearable · In development</p>
+    <h1>Lumery</h1>
+    <p class="lead">Shaping an AI wearable as one connected physical, digital and visual product.</p>
+  </div>
+  <div class="facts">
+    <div><small>Role</small><span>Product / Visual Designer</span></div>
+    <div><small>Period</small><span>Dec 2025—May 2026</span></div>
+    <div><small>Team</small><span>CEO + 2 designers</span></div>
+  </div>
+  <p class="statement">How can AI live on the face and still feel like <em>a personal object, not a gadget?</em></p>
+  <h2>One product across hardware, software and brand.</h2>
+</section>
+</body>
+</html>

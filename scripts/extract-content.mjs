@@ -77,7 +77,7 @@ function literalsIn(text) {
 }
 
 /* ---- media ----------------------------------------------------------- */
-const ASSET = /assets\/[A-Za-z0-9._\-/]+\.(?:png|jpe?g|webp|svg|mp4|webm|task|tflite|js)/g;
+const ASSET = /assets\/[A-Za-z0-9._\-/]+\.(?:png|jpe?g|webp|svg|mp4|webm)/g;
 function mediaIn(text) { return [...new Set(text.match(ASSET) || [])]; }
 
 /* ---- run ------------------------------------------------------------- */
