@@ -17,3 +17,9 @@ To switch to the Actions pipeline later:
 1. `gh auth refresh -h github.com -s workflow` (interactive, opens the browser)
 2. `git mv deploy/github-pages.workflow.yml .github/workflows/pages.yml && git commit -m "Deploy via Actions" && git push`
 3. `gh api -X PUT repos/StrapSeason/dz-portfolio-v2/pages -f build_type=workflow`
+
+## Verification (2026-09-03)
+- Pages build (gh-pages a4d4b34): built, 33.4 s, no error
+- Live: / 200 · case-lumery 200 · case-aleria 200 · case-bitronix 200 · case-every-bali 200
+- Asset sweep: see transcript (scripts/deploy-sweep.mjs)
+- Old repo main unchanged: d693463 (recorded d693463); working tree clean
