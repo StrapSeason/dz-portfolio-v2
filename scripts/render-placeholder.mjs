@@ -22,7 +22,9 @@ writeFileSync('index.html', `<!doctype html>
 ${body}
 </main><section aria-hidden="true">${mediaList}</section></body></html>
 `);
+import { existsSync } from 'node:fs';
 for (const p of ['case-lumery', 'case-aleria', 'case-bitronix', 'case-every-bali', 'styleguide', 'lab']) {
+  if (existsSync(`${p}.html`) && !/dz-stub/.test(readFileSync(`${p}.html`, 'utf8'))) continue;   // real page: keep
   writeFileSync(`${p}.html`, `<!doctype html><html lang="en"><head><meta charset="utf-8" /><meta name="dz-stub" content="phase-1" /><title>${p}</title></head><body><p>${p} — built in a later phase.</p></body></html>\n`);
 }
 console.log('placeholder index.html + 6 stubs written');

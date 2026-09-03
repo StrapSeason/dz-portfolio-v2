@@ -1,1 +1,155 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8" /><meta name="dz-stub" content="phase-1" /><title>styleguide</title></head><body><p>styleguide — built in a later phase.</p></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Styleguide — Instrument</title>
+  <link rel="icon" href="/media/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/src/styles/tokens.css" />
+  <link rel="stylesheet" href="/src/styles/base.css" />
+  <link rel="stylesheet" href="/src/styles/layout.css" />
+  <link rel="stylesheet" href="/src/styles/components.css" />
+  <style>
+    .sg { padding: var(--space-3) var(--pad); display: grid; gap: var(--space-4); }
+    .sg-block { display: grid; gap: var(--space-2); }
+    .sg > *, .sg-block > * { min-width: 0; }
+    .sg-block > .label { padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
+    .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: var(--space-1); }
+    .swatch { padding: 14px; border: 1px solid var(--rule); font-family: var(--font-mono); font-size: 11px; }
+    .swatch i { display: block; height: 44px; margin-bottom: 8px; border: 1px solid var(--rule); }
+  </style>
+</head>
+<body class="ground">
+  <div class="page" id="top">
+    <div data-shell="nav"></div>
+    <main class="sg">
+      <div class="section-head">
+        <h1 class="display h1">Instrument</h1>
+        <button class="btn" type="button" data-theme-toggle aria-pressed="false">Toggle blueprint</button>
+      </div>
+
+      <section class="sg-block" data-component="tokens">
+        <p class="label">Colour tokens</p>
+        <div class="swatches">
+          <div class="swatch"><i style="background: var(--bg)"></i>--bg</div>
+          <div class="swatch"><i style="background: var(--surface)"></i>--surface</div>
+          <div class="swatch"><i style="background: var(--surface-2)"></i>--surface-2</div>
+          <div class="swatch"><i style="background: var(--ink)"></i>--ink</div>
+          <div class="swatch"><i style="background: var(--muted)"></i>--muted</div>
+          <div class="swatch"><i style="background: var(--accent)"></i>--accent</div>
+        </div>
+      </section>
+
+      <section class="sg-block" data-component="type">
+        <p class="label">Type scale — Archivo (display, width axis) · Geist (body) · Geist Mono (labels)</p>
+        <p class="display title">Lumery</p>
+        <p class="display h1">Multidisciplinary <span class="display--light">Art Director</span></p>
+        <p class="display h2">One product across hardware, software and brand.</p>
+        <p class="display h3">Designed around what has to live inside.</p>
+        <p class="lead">I build visual systems, campaigns and digital products for AI, fintech and emerging technology — from concept and product logic to motion and launch.</p>
+        <p class="body">Lumery began as an early-stage smart-glasses product. Working directly with the CEO and one other designer, I helped develop the product direction, visual language, companion experience and interaction logic as one coherent system.</p>
+        <p class="label">Moscow · Working internationally · Since 2022</p>
+      </section>
+
+      <section class="sg-block" data-component="buttons">
+        <p class="label">Buttons — default / primary / disabled (hover, focus, active are live)</p>
+        <div class="cluster">
+          <a class="btn" href="#top"><b>Selected</b> work ↘</a>
+          <a class="btn btn--primary" href="#top">Open the calculator ↗</a>
+          <a class="btn" href="#top" aria-disabled="true">Back to top ↑</a>
+        </div>
+      </section>
+
+      <section class="sg-block" data-component="section-label">
+        <p class="label">Section label + statement</p>
+        <p class="section-label">Product question</p>
+        <p class="statement">How can AI live on the face and still feel like <em>a personal object, not a gadget?</em></p>
+      </section>
+
+      <section class="sg-block" data-component="chips">
+        <p class="label">Meta chips</p>
+        <div class="chips"><span class="chip">Product Strategy</span><span class="chip">UX/UI</span><span class="chip">2025—26</span></div>
+      </section>
+
+      <section class="sg-block" data-component="facts">
+        <p class="label">Fact list</p>
+        <div class="facts">
+          <div><small>Role</small><span>Product / Visual Designer</span></div>
+          <div><small>Period</small><span>Dec 2025—May 2026</span></div>
+          <div><small>Team</small><span>CEO + 2 designers</span></div>
+        </div>
+      </section>
+
+      <section class="sg-block" data-component="plate">
+        <p class="label">Plate — annotated media with title block; caption sits outside the clip box</p>
+        <figure class="plate">
+          <div class="plate__media">
+            <img src="/media/lumery-product-front.png" alt="Front view of Lumery smart glasses" width="1920" height="1080" style="object-position: 50% 45%" />
+            <svg class="plate__annot" viewBox="0 0 1000 562" preserveAspectRatio="none" aria-hidden="true">
+              <line class="tick" x1="180" y1="500" x2="820" y2="500" /><text x="440" y="520">FRONT · WIDTH</text>
+              <circle cx="205" cy="270" r="26" /><text x="240" y="250">CAMERA L</text>
+              <circle cx="795" cy="270" r="26" /><text x="700" y="250">CAMERA R</text>
+            </svg>
+          </div>
+          <div class="plate__title"><div>Project<b>Lumery</b></div><div>View<b>Front</b></div><div>Scale<b>1 : 1</b></div></div>
+          <figcaption><span>Front view</span><span>Physical product direction</span></figcaption>
+        </figure>
+      </section>
+
+      <section class="sg-block" data-component="figure">
+        <p class="label">Figure with caption</p>
+        <div class="grid-2">
+          <figure class="figure"><div class="figure__media"><img src="/media/lumery-components-left.png" alt="Lumery left temple architecture with camera, processor and speaker" width="1920" height="1072" loading="lazy" /></div><figcaption><span>Left side / camera · SoC · speaker</span></figcaption></figure>
+          <figure class="figure"><div class="figure__media"><img src="/media/lumery-components-right.png" alt="Lumery right temple architecture with battery and LiDAR" width="1920" height="1072" loading="lazy" /></div><figcaption><span>Right side / battery · LiDAR</span></figcaption></figure>
+        </div>
+      </section>
+
+      <section class="sg-block" data-component="video">
+        <p class="label">Video frame — poster first, nothing loads until play</p>
+        <div class="video" style="max-width: 640px">
+          <video src="/media/particle-video.mp4" poster="/media/lumery-glasses.jpg" preload="metadata" playsinline muted width="854" height="480"></video>
+          <button class="video__play" type="button">Play</button>
+        </div>
+      </section>
+
+      <section class="sg-block" data-component="case-row">
+        <p class="label">Case row (work index)</p>
+        <a class="case-row" href="#top"><img src="/media/lumery-glasses.jpg" alt="Lumery smart glasses prototype" width="800" height="600" loading="lazy" /><h2>Lumery</h2><p>An intelligent glasses ecosystem</p><div class="chips"><span class="chip">Product Strategy</span><span class="chip">UX/UI</span><span class="chip">2025—26</span></div></a>
+      </section>
+
+      <section class="sg-block" data-component="table">
+        <p class="label">Table</p>
+        <div class="wide">
+          <table class="table">
+            <thead><tr><th>Unit</th><th>Beds</th><th>Baths</th><th>Living space</th></tr></thead>
+            <tbody><tr><td>Villa S1</td><td>1</td><td>1</td><td>80.83 m²</td></tr><tr><td>A L33</td><td>1</td><td>1</td><td>44.2 m²</td></tr></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="sg-block" data-component="tabs">
+        <p class="label">Tabs — arrow keys, roving tabindex</p>
+        <div data-tabs>
+          <div class="tabs" role="tablist" aria-label="Lumery logic">
+            <button class="tab" role="tab" id="t-mind" aria-controls="p-mind" aria-selected="true" type="button">MyMind</button>
+            <button class="tab" role="tab" id="t-world" aria-controls="p-world" aria-selected="false" type="button">MyWorld</button>
+            <button class="tab" role="tab" id="t-visions" aria-controls="p-visions" aria-selected="false" type="button">Visions</button>
+          </div>
+          <div class="tabpanel" role="tabpanel" id="p-mind" aria-labelledby="t-mind"><p class="body">Personal knowledge system</p></div>
+          <div class="tabpanel" role="tabpanel" id="p-world" aria-labelledby="t-world" hidden><p class="body">Living travel map</p></div>
+          <div class="tabpanel" role="tabpanel" id="p-visions" aria-labelledby="t-visions" hidden><p class="body">Companion app / visions</p></div>
+        </div>
+      </section>
+
+      <section class="sg-block" data-component="availability">
+        <p class="label">Availability + contact links</p>
+        <p class="availability"><i></i> Open to work</p>
+        <div class="contact-links" data-contact-links></div>
+      </section>
+    </main>
+    <div data-shell="footer"></div>
+  </div>
+  <script type="module" src="/src/pages/styleguide.js"></script>
+</body>
+</html>

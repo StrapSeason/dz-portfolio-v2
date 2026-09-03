@@ -1,0 +1,38 @@
+/* Layout — page shell, section rhythm, the drawing-sheet grid. */
+.page { position: relative; z-index: 1; min-height: 100svh; display: flex; flex-direction: column; }
+.page > main { flex: 1 0 auto; }
+
+.section { padding: var(--space-4) var(--pad); border-top: 1px solid var(--ink); }
+.section--quiet { border-top-color: var(--rule); }
+.section-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: var(--space-2); margin-bottom: var(--space-3); }
+
+/* split: copy | plate — the workhorse of every case page */
+.split { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(24px, 4vw, 64px); align-items: end; }
+.split--even { grid-template-columns: 1fr 1fr; }
+.split--reverse > :first-child { order: 2; }
+
+/* text column with a margin note, like a drawing sheet */
+.sheet { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 9fr); gap: var(--space-3); }
+.sheet > aside { position: sticky; top: var(--space-3); align-self: start; }
+
+.stack { display: grid; gap: var(--space-2); }
+/* grid/flex children default to min-width:auto and can force overflow on narrow screens */
+.stack > *, .split > *, .sheet > *, .grid-2 > *, .grid-3 > *, .grid-4 > *, .section > * { min-width: 0; }
+.stack--tight { gap: var(--space-1); }
+.stack--loose { gap: var(--space-3); }
+.cluster { display: flex; flex-wrap: wrap; gap: var(--space-1); align-items: center; }
+.grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-2); }
+.grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-2); }
+.grid-4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-2); }
+.wide { overflow-x: auto; }
+
+@media (max-width: 900px) {
+  .split, .split--even, .sheet { grid-template-columns: 1fr; }
+  .split--reverse > :first-child { order: 0; }
+  .sheet > aside { position: static; }
+  .grid-3, .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .section { padding: var(--space-3) var(--pad); }
+}
