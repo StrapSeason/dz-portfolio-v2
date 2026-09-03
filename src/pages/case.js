@@ -1,3 +1,4 @@
+import { initMotion } from '../motion/index.js';
 import { createScene } from '../three/scene.js';
 import { initTabs } from '../shell/tabs.js';
 import { initVideos } from '../shell/video.js';
@@ -18,3 +19,5 @@ if (stage && objects[stage.dataset.object]) {
 }
 document.querySelectorAll('[data-tabs]').forEach(initTabs);
 initVideos();
+
+initMotion();

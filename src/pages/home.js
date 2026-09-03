@@ -1,3 +1,4 @@
+import { initMotion } from '../motion/index.js';
 import { createScene } from '../three/scene.js';
 import { create as createInstrument } from '../three/objects/home.js';
 import { initVideos } from '../shell/video.js';
@@ -11,3 +12,5 @@ if (stage) {
 initVideos();
 // the old modal's "Close ×" lives inside each expandable case summary
 document.querySelectorAll('.case-sum [data-close]').forEach((b) => b.addEventListener('click', () => { const d = b.closest('details'); d.open = false; d.querySelector('summary').focus(); }));
+
+initMotion();

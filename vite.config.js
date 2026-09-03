@@ -8,6 +8,7 @@ const concepts = existsSync('concepts') ? readdirSync('concepts').filter((f) => 
 export default defineConfig({
   base: process.env.VITE_BASE || '/',
   build: {
+    chunkSizeWarningLimit: 600,           // three.js core is ~540 KB raw / 132 KB gz and is loaded once, lazily per page
     rollupOptions: {
       input: {
         ...Object.fromEntries(pages.map((p) => [p, resolve(__dirname, `${p}.html`)])),
