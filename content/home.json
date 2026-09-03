@@ -21,35 +21,40 @@
       "kind": "text",
       "tag": "span",
       "hint": "wordmark",
-      "text": "Daniil"
+      "text": "Daniil",
+      "href": "#top"
     },
     {
       "id": "home-t3",
       "kind": "text",
       "tag": "span",
       "hint": "wordmark",
-      "text": "Zinoviev"
+      "text": "Zinoviev",
+      "href": "#top"
     },
     {
       "id": "home-t4",
       "kind": "text",
       "tag": "a",
       "hint": "site-header",
-      "text": "Work"
+      "text": "Work",
+      "href": "#work"
     },
     {
       "id": "home-t5",
       "kind": "text",
       "tag": "a",
       "hint": "site-header",
-      "text": "About"
+      "text": "About",
+      "href": "#about"
     },
     {
       "id": "home-t6",
       "kind": "text",
       "tag": "a",
       "hint": "site-header",
-      "text": "Contact"
+      "text": "Contact",
+      "href": "#contact"
     },
     {
       "id": "home-t7",
@@ -91,14 +96,16 @@
       "kind": "text",
       "tag": "span",
       "hint": "round-link",
-      "text": "Selected"
+      "text": "Selected",
+      "href": "#work"
     },
     {
       "id": "home-t13",
       "kind": "text",
       "tag": "span",
       "hint": "round-link",
-      "text": "work"
+      "text": "work",
+      "href": "#work"
     },
     {
       "id": "home-t14",
@@ -451,14 +458,16 @@
       "kind": "text",
       "tag": "a",
       "hint": "contact-links",
-      "text": "reak1315@gmail.com"
+      "text": "reak1315@gmail.com",
+      "href": "mailto:reak1315@gmail.com"
     },
     {
       "id": "home-t64",
       "kind": "text",
       "tag": "a",
       "hint": "contact-links",
-      "text": "Telegram"
+      "text": "Telegram",
+      "href": "https://t.me/insearchofblood"
     },
     {
       "id": "home-t65",
@@ -479,7 +488,8 @@
       "kind": "text",
       "tag": "a",
       "hint": "contact",
-      "text": "Back to top ↑"
+      "text": "Back to top ↑",
+      "href": "#top"
     },
     {
       "id": "home-t68",

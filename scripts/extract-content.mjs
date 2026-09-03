@@ -32,7 +32,7 @@ const hasLetters = (s) => /[\p{L}\p{N}]/u.test(s);
 function walk(node, page, out, ctx) {
   if (node.nodeType === 3) {
     const text = norm(node.rawText);
-    if (text && hasLetters(text)) out.push({ id: `${page}-t${out.length}`, kind: 'text', tag: ctx.tag, hint: ctx.hint, text });
+    if (text && hasLetters(text)) out.push({ id: `${page}-t${out.length}`, kind: 'text', tag: ctx.tag, hint: ctx.hint, text, ...(ctx.href ? { href: ctx.href } : {}) });
     return;
   }
   if (node.nodeType !== 1) return;
@@ -43,13 +43,14 @@ function walk(node, page, out, ctx) {
     const alt = norm(node.getAttribute('alt') || '');
     if (alt && hasLetters(alt)) out.push({ id: `${page}-t${out.length}`, kind: 'alt', tag, hint, text: alt, src: (node.getAttribute('src') || '').split('/').pop() });
   }
-  for (const child of node.childNodes) walk(child, page, out, { tag, hint });
+  const href = tag === 'a' ? (node.getAttribute('href') || '') : ctx.href;
+  for (const child of node.childNodes) walk(child, page, out, { tag, hint, href });
 }
 
 /* ---- JS literals ----------------------------------------------------- */
 const LITERAL = /"((?:[^"\\]|\\.)*)"|'((?:[^'\\]|\\.)*)'|`((?:[^`\\]|\\.)*)`/g;
 const looksLikeCopy = (s) =>
-  s.length >= 3 && hasLetters(s) && /\s|[.,!?—·]/.test(s) &&
+  s.length >= 3 && hasLetters(s) && /\s|[.,!?—·]/.test(s) && !/[<>]|\$\{/.test(s) &&
   !/^(assets\/|https?:|mailto:|#|\.|\[|\(|translate|scale|rgba|url\(|linear|\$\{|[a-z-]+\.(css|js|html|png|jpg|mp4|webp))/i.test(s) &&
   !/^[a-z-]+$/.test(s);
 

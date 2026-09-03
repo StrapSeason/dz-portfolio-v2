@@ -21,21 +21,24 @@
       "kind": "text",
       "tag": "span",
       "hint": "case-nav",
-      "text": "All work"
+      "text": "All work",
+      "href": "index.html#work"
     },
     {
       "id": "every-bali-t3",
       "kind": "text",
       "tag": "a",
       "hint": "brand",
-      "text": "Daniil Zinoviev"
+      "text": "Daniil Zinoviev",
+      "href": "index.html"
     },
     {
       "id": "every-bali-t4",
       "kind": "text",
       "tag": "a",
       "hint": "case-nav",
-      "text": "Contact"
+      "text": "Contact",
+      "href": "#contact"
     },
     {
       "id": "every-bali-t5",
@@ -267,7 +270,8 @@
       "kind": "text",
       "tag": "a",
       "hint": "desktop-live-link",
-      "text": "Experience the complete live website ↗"
+      "text": "Experience the complete live website ↗",
+      "href": "https://www.every-bali.com/"
     },
     {
       "id": "every-bali-t38",
@@ -528,7 +532,8 @@
       "kind": "text",
       "tag": "a",
       "hint": "masterplan-card-copy",
-      "text": "Open live catalog ↗"
+      "text": "Open live catalog ↗",
+      "href": "https://www.every-bali.com/"
     },
     {
       "id": "every-bali-t75",
@@ -1024,7 +1029,8 @@
       "kind": "text",
       "tag": "a",
       "hint": "desktop-live-link",
-      "text": "Open the calculator ↗"
+      "text": "Open the calculator ↗",
+      "href": "https://every-bali.com/calculator/en"
     },
     {
       "id": "every-bali-t145",
@@ -1185,7 +1191,8 @@
       "kind": "text",
       "tag": "a",
       "hint": "live-link",
-      "text": "Visit live website ↗"
+      "text": "Visit live website ↗",
+      "href": "https://www.every-bali.com/"
     },
     {
       "id": "every-bali-t168",
@@ -1199,7 +1206,8 @@
       "kind": "text",
       "tag": "span",
       "hint": "next-link",
-      "text": "Aleria"
+      "text": "Aleria",
+      "href": "case-aleria.html"
     },
     {
       "id": "every-bali-t170",
@@ -1220,7 +1228,8 @@
       "kind": "text",
       "tag": "a",
       "hint": "case-footer",
-      "text": "reak1315@gmail.com"
+      "text": "reak1315@gmail.com",
+      "href": "mailto:reak1315@gmail.com"
     },
     {
       "id": "every-bali-js173",
@@ -1255,80 +1264,73 @@
       "kind": "js",
       "tag": "script",
       "hint": "js",
-      "text": "<span class=\"bali-tile-media\" style=\"width:${TILE}px;height:${TILE}px\"></span><figcaption></figcaption>"
+      "text": "Villa S1"
     },
     {
       "id": "every-bali-js178",
       "kind": "js",
       "tag": "script",
       "hint": "js",
-      "text": "Villa S1"
+      "text": "80.83"
     },
     {
       "id": "every-bali-js179",
       "kind": "js",
       "tag": "script",
       "hint": "js",
-      "text": "80.83"
+      "text": "Ocean view · Forest view · BBQ area"
     },
     {
       "id": "every-bali-js180",
       "kind": "js",
       "tag": "script",
       "hint": "js",
-      "text": "Ocean view · Forest view · BBQ area"
+      "text": "A L33"
     },
     {
       "id": "every-bali-js181",
       "kind": "js",
       "tag": "script",
       "hint": "js",
-      "text": "A L33"
+      "text": "Block A L33"
     },
     {
       "id": "every-bali-js182",
       "kind": "js",
       "tag": "script",
       "hint": "js",
-      "text": "Block A L33"
+      "text": "89.27"
     },
     {
       "id": "every-bali-js183",
       "kind": "js",
       "tag": "script",
       "hint": "js",
-      "text": "89.27"
+      "text": "Ocean view · Fully furnished · Designer interior"
     },
     {
       "id": "every-bali-js184",
       "kind": "js",
       "tag": "script",
       "hint": "js",
-      "text": "Ocean view · Fully furnished · Designer interior"
+      "text": "A M34"
     },
     {
       "id": "every-bali-js185",
       "kind": "js",
       "tag": "script",
       "hint": "js",
-      "text": "A M34"
+      "text": "Block A M34"
     },
     {
       "id": "every-bali-js186",
       "kind": "js",
       "tag": "script",
       "hint": "js",
-      "text": "Block A M34"
-    },
-    {
-      "id": "every-bali-js187",
-      "kind": "js",
-      "tag": "script",
-      "hint": "js",
       "text": "50.44"
     },
     {
-      "id": "every-bali-js188",
+      "id": "every-bali-js187",
       "kind": "js",
       "tag": "script",
       "hint": "js",

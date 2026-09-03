@@ -93,3 +93,11 @@ export const tail = () => `<script type="module" src="/src/pages/case.js"></scri
 </body>
 </html>
 `;
+
+/* video frame: poster-first, plays on request; portrait/square handled by CSS aspect */
+export const video = ({ src, poster, w, h, caption = [], cls = '' }) => `<figure class="figure ${cls}">
+  <div class="video figure__media"><video src="${m(src)}"${poster ? ` poster="${m(poster)}"` : ''} preload="metadata" playsinline muted width="${w}" height="${h}"></video><button class="video__play" type="button">Play</button></div>
+  ${caption.length ? `<figcaption>${caption.map((c) => `<span>${esc(c)}</span>`).join('')}</figcaption>` : ''}
+</figure>`;
+export const roleCards = (cards) => `<div class="grid-3 role-cards">${cards.map(([span, p]) => `<article class="role-card">${span ? `<span class="label label--accent">${esc(span)}</span>` : ''}<p>${esc(p)}</p></article>`).join('')}</div>`;
+export const liveLink = (text, href) => `<a class="btn" href="${esc(href)}" target="_blank" rel="noreferrer">${esc(text)}</a>`;

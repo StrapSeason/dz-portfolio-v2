@@ -21,21 +21,24 @@
       "kind": "text",
       "tag": "span",
       "hint": "case-nav",
-      "text": "All work"
+      "text": "All work",
+      "href": "index.html#work"
     },
     {
       "id": "bitronix-t3",
       "kind": "text",
       "tag": "a",
       "hint": "brand",
-      "text": "Daniil Zinoviev"
+      "text": "Daniil Zinoviev",
+      "href": "index.html"
     },
     {
       "id": "bitronix-t4",
       "kind": "text",
       "tag": "a",
       "hint": "case-nav",
-      "text": "Contact"
+      "text": "Contact",
+      "href": "#contact"
     },
     {
       "id": "bitronix-t5",
@@ -697,7 +700,8 @@
       "kind": "text",
       "tag": "a",
       "hint": "live-link",
-      "text": "View public channel ↗"
+      "text": "View public channel ↗",
+      "href": "https://t.me/bitronixapp"
     },
     {
       "id": "bitronix-t98",
@@ -711,7 +715,8 @@
       "kind": "text",
       "tag": "span",
       "hint": "next-link",
-      "text": "Every Bali"
+      "text": "Every Bali",
+      "href": "case-every-bali.html"
     },
     {
       "id": "bitronix-t100",
@@ -732,7 +737,8 @@
       "kind": "text",
       "tag": "a",
       "hint": "case-footer",
-      "text": "reak1315@gmail.com"
+      "text": "reak1315@gmail.com",
+      "href": "mailto:reak1315@gmail.com"
     },
     {
       "id": "bitronix-js103",

@@ -21,21 +21,24 @@
       "kind": "text",
       "tag": "span",
       "hint": "case-nav",
-      "text": "All work"
+      "text": "All work",
+      "href": "index.html#work"
     },
     {
       "id": "lumery-t3",
       "kind": "text",
       "tag": "a",
       "hint": "brand",
-      "text": "Daniil Zinoviev"
+      "text": "Daniil Zinoviev",
+      "href": "index.html"
     },
     {
       "id": "lumery-t4",
       "kind": "text",
       "tag": "a",
       "hint": "case-nav",
-      "text": "Contact"
+      "text": "Contact",
+      "href": "#contact"
     },
     {
       "id": "lumery-t5",
@@ -1276,7 +1279,8 @@
       "kind": "text",
       "tag": "a",
       "hint": "workfile-viewer-bar",
-      "text": "Open high-res ↗"
+      "text": "Open high-res ↗",
+      "href": "assets/lumery-figma-architecture.jpg"
     },
     {
       "id": "lumery-t181",
@@ -1567,7 +1571,8 @@
       "kind": "text",
       "tag": "span",
       "hint": "next-link",
-      "text": "Bitronix"
+      "text": "Bitronix",
+      "href": "case-bitronix.html"
     },
     {
       "id": "lumery-t222",
@@ -1588,7 +1593,8 @@
       "kind": "text",
       "tag": "a",
       "hint": "case-footer",
-      "text": "reak1315@gmail.com"
+      "text": "reak1315@gmail.com",
+      "href": "mailto:reak1315@gmail.com"
     },
     {
       "id": "lumery-js225",

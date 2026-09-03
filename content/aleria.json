@@ -21,21 +21,24 @@
       "kind": "text",
       "tag": "span",
       "hint": "case-nav",
-      "text": "All work"
+      "text": "All work",
+      "href": "index.html#work"
     },
     {
       "id": "aleria-t3",
       "kind": "text",
       "tag": "a",
       "hint": "brand",
-      "text": "Daniil Zinoviev"
+      "text": "Daniil Zinoviev",
+      "href": "index.html"
     },
     {
       "id": "aleria-t4",
       "kind": "text",
       "tag": "a",
       "hint": "case-nav",
-      "text": "Contact"
+      "text": "Contact",
+      "href": "#contact"
     },
     {
       "id": "aleria-t5",
@@ -669,7 +672,8 @@
       "kind": "text",
       "tag": "a",
       "hint": "live-link",
-      "text": "Visit current Aleria website ↗"
+      "text": "Visit current Aleria website ↗",
+      "href": "https://aleria.ai/"
     },
     {
       "id": "aleria-t94",
@@ -705,7 +709,8 @@
       "kind": "text",
       "tag": "span",
       "hint": "next-link",
-      "text": "Lumery"
+      "text": "Lumery",
+      "href": "case-lumery.html"
     },
     {
       "id": "aleria-t99",
@@ -726,7 +731,8 @@
       "kind": "text",
       "tag": "a",
       "hint": "case-footer",
-      "text": "reak1315@gmail.com"
+      "text": "reak1315@gmail.com",
+      "href": "mailto:reak1315@gmail.com"
     }
   ]
 }
