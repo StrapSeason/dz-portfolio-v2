@@ -12,7 +12,8 @@
     "extract": "node scripts/extract-content.mjs && node scripts/copy-media.mjs && node scripts/render-placeholder.mjs",
     "perf": "node scripts/perf.mjs",
     "pages": "node scripts/build-pages.mjs",
-    "prebuild": "node scripts/build-pages.mjs"
+    "prebuild": "node scripts/build-pages.mjs",
+    "deploy": "node scripts/deploy-branch.mjs"
   },
   "keywords": [],
   "author": "",
