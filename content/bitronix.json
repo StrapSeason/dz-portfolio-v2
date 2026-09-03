@@ -42,7 +42,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "bitronix-hero-image",
-      "text": "Bitronix robot character in a cinematic environment"
+      "text": "Bitronix robot character in a cinematic environment",
+      "src": "bitronix-robot.png"
     },
     {
       "id": "bitronix-t6",
@@ -182,7 +183,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Green Bitronix character"
+      "text": "Green Bitronix character",
+      "src": "bitronix-bot-green.png"
     },
     {
       "id": "bitronix-t26",
@@ -203,7 +205,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Blue Bitronix character"
+      "text": "Blue Bitronix character",
+      "src": "bitronix-bot-blue.png"
     },
     {
       "id": "bitronix-t29",
@@ -224,7 +227,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Purple Bitronix character"
+      "text": "Purple Bitronix character",
+      "src": "bitronix-bot-purple.png"
     },
     {
       "id": "bitronix-t32",
@@ -245,7 +249,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Pink Bitronix character"
+      "text": "Pink Bitronix character",
+      "src": "bitronix-bot-pink.png"
     },
     {
       "id": "bitronix-t35",
@@ -322,7 +327,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "bot-selector-view",
-      "text": "Jugg Bitronix strategy character"
+      "text": "Jugg Bitronix strategy character",
+      "src": "bitronix-bot-green.png"
     },
     {
       "id": "bitronix-t46",
@@ -399,7 +405,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "bitronix-product-lead",
-      "text": "Bitronix product story and mobile interface presentation"
+      "text": "Bitronix product story and mobile interface presentation",
+      "src": "bitronix-product-board.png"
     },
     {
       "id": "bitronix-t57",
@@ -420,7 +427,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Bitronix mobile investment product hero presentation"
+      "text": "Bitronix mobile investment product hero presentation",
+      "src": "bitronix-deck-hero.png"
     },
     {
       "id": "bitronix-t60",
@@ -434,7 +442,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Bitronix AI bot and broker product lines presentation"
+      "text": "Bitronix AI bot and broker product lines presentation",
+      "src": "bitronix-deck-products.png"
     },
     {
       "id": "bitronix-t62",
@@ -448,7 +457,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Bitronix AI bot strategy profiles presentation"
+      "text": "Bitronix AI bot strategy profiles presentation",
+      "src": "bitronix-deck-bots.png"
     },
     {
       "id": "bitronix-t64",
@@ -462,7 +472,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Bitronix AI trading process presentation"
+      "text": "Bitronix AI trading process presentation",
+      "src": "bitronix-deck-how-it-works.png"
     },
     {
       "id": "bitronix-t66",

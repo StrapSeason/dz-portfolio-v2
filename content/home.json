@@ -161,7 +161,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "lumery-art",
-      "text": "Lumery smart glasses prototype"
+      "text": "Lumery smart glasses prototype",
+      "src": "lumery-glasses.jpg"
     },
     {
       "id": "home-t23",
@@ -252,7 +253,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "bitronix-art",
-      "text": "Bitronix robot character"
+      "text": "Bitronix robot character",
+      "src": "bitronix-robot.png"
     },
     {
       "id": "home-t36",
@@ -371,7 +373,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "portrait-wrap",
-      "text": "Portrait of Daniil Zinoviev"
+      "text": "Portrait of Daniil Zinoviev",
+      "src": "daniil-portrait.png"
     },
     {
       "id": "home-t53",

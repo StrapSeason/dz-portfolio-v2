@@ -31,6 +31,12 @@ out.captionsClipped = await p.evaluate(() => {
   return n;
 });
 out.caseLinks = await p.evaluate(() => document.querySelectorAll('a[href^="case-"]').length);
+// tabs: focus first tab, ArrowRight → second tab selected and its panel visible
+out.tabsKeyboard = await p.evaluate(() => document.querySelector('[role="tab"]') ? 'present' : 'none');
+if (out.tabsKeyboard === 'present') {
+  await p.focus('[role="tab"]'); await p.keyboard.press('ArrowRight'); await p.waitForTimeout(100);
+  out.tabsKeyboard = await p.evaluate(() => { const tabs = [...document.querySelectorAll('[role="tab"]')]; const second = tabs[1]; const panel = document.getElementById(second.getAttribute('aria-controls')); return { secondSelected: second.getAttribute('aria-selected') === 'true', secondPanelVisible: !panel.hidden && panel.getBoundingClientRect().height > 0, focusOnSecond: document.activeElement === second }; });
+}
 out.overflow390 = null;
 await p.close();
 p = await browser.newPage({ viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce' });

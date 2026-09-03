@@ -41,7 +41,7 @@ function walk(node, page, out, ctx) {
   const hint = node.getAttribute('class')?.split(/\s+/)[0] || ctx.hint;
   if (tag === 'img') {
     const alt = norm(node.getAttribute('alt') || '');
-    if (alt && hasLetters(alt)) out.push({ id: `${page}-t${out.length}`, kind: 'alt', tag, hint, text: alt });
+    if (alt && hasLetters(alt)) out.push({ id: `${page}-t${out.length}`, kind: 'alt', tag, hint, text: alt, src: (node.getAttribute('src') || '').split('/').pop() });
   }
   for (const child of node.childNodes) walk(child, page, out, { tag, hint });
 }

@@ -147,7 +147,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "media-full",
-      "text": "Aleria C-level AI ecosystem presentation"
+      "text": "Aleria C-level AI ecosystem presentation",
+      "src": "aleria-presentation-ecosystem-hd.png"
     },
     {
       "id": "aleria-t21",
@@ -259,7 +260,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "showcase-image",
-      "text": "Aleria rules for typography and brand naming"
+      "text": "Aleria rules for typography and brand naming",
+      "src": "aleria-brand-rules-hd.png"
     },
     {
       "id": "aleria-t37",
@@ -308,7 +310,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "showcase-image",
-      "text": "Aleria ecosystem across AI products and devices"
+      "text": "Aleria ecosystem across AI products and devices",
+      "src": "aleria-ecosystem.jpg"
     },
     {
       "id": "aleria-t44",
@@ -322,7 +325,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "showcase-image",
-      "text": "Aleria enterprise use-case system"
+      "text": "Aleria enterprise use-case system",
+      "src": "aleria-cases.jpg"
     },
     {
       "id": "aleria-t46",
@@ -371,7 +375,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Aleria v8.5 product update overview"
+      "text": "Aleria v8.5 product update overview",
+      "src": "aleria-v85-overview.jpg"
     },
     {
       "id": "aleria-t53",
@@ -385,7 +390,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Aleria datarooms, workflows and Arabic support product update"
+      "text": "Aleria datarooms, workflows and Arabic support product update",
+      "src": "aleria-v85-datarooms.jpg"
     },
     {
       "id": "aleria-t55",
@@ -399,7 +405,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Aleria deep index and document understanding product update"
+      "text": "Aleria deep index and document understanding product update",
+      "src": "aleria-v85-deep-index.jpg"
     },
     {
       "id": "aleria-t57",
@@ -413,7 +420,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Aleria deep workflow reports product update"
+      "text": "Aleria deep workflow reports product update",
+      "src": "aleria-v85-workflows.jpg"
     },
     {
       "id": "aleria-t59",
@@ -497,7 +505,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Aleria mobile onboarding permissions screen"
+      "text": "Aleria mobile onboarding permissions screen",
+      "src": "aleria-mobile-permissions-hd.png"
     },
     {
       "id": "aleria-t71",
@@ -546,14 +555,16 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Aleria AI and data sovereignty presentation slide"
+      "text": "Aleria AI and data sovereignty presentation slide",
+      "src": "aleria-presentation-sovereignty-hd.png"
     },
     {
       "id": "aleria-t78",
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Aleria event roll-up design"
+      "text": "Aleria event roll-up design",
+      "src": "aleria-rollup-hd.png"
     },
     {
       "id": "aleria-t79",
@@ -665,7 +676,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "media-full",
-      "text": "Examples of Aleria deployments and public communication"
+      "text": "Examples of Aleria deployments and public communication",
+      "src": "aleria-proof.jpg"
     },
     {
       "id": "aleria-t95",

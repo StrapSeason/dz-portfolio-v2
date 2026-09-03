@@ -42,7 +42,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "hero-image",
-      "text": "Every Bali residential development at sunset"
+      "text": "Every Bali residential development at sunset",
+      "src": "every-bali-hero.png"
     },
     {
       "id": "every-bali-t6",
@@ -392,7 +393,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "masterplan-image",
-      "text": "Every Bali interactive masterplan"
+      "text": "Every Bali interactive masterplan",
+      "src": "every-bali-map-live.webp"
     },
     {
       "id": "every-bali-t56",
@@ -441,7 +443,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "masterplan-card",
-      "text": "Villa S1"
+      "text": "Villa S1",
+      "src": "every-bali-unit-villa-s1.webp"
     },
     {
       "id": "every-bali-t63",
@@ -595,7 +598,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "catalog-card-image",
-      "text": "Villa S1 exterior"
+      "text": "Villa S1 exterior",
+      "src": "every-bali-unit-villa-s1.webp"
     },
     {
       "id": "every-bali-t85",
@@ -665,7 +669,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "catalog-card-image",
-      "text": "Block A L33 apartment"
+      "text": "Block A L33 apartment",
+      "src": "every-bali-unit-a-l33.webp"
     },
     {
       "id": "every-bali-t95",
@@ -735,7 +740,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "catalog-card-image",
-      "text": "Block A M34 apartment"
+      "text": "Block A M34 apartment",
+      "src": "every-bali-unit-a-m34.webp"
     },
     {
       "id": "every-bali-t105",
@@ -840,7 +846,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "bali-phone-shell",
-      "text": "Every Bali mobile landing and destination story"
+      "text": "Every Bali mobile landing and destination story",
+      "src": "every-bali-mobile-main-hd.png"
     },
     {
       "id": "every-bali-t120",
@@ -854,7 +861,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "bali-phone-shell",
-      "text": "Every Bali mobile masterplan and property card"
+      "text": "Every Bali mobile masterplan and property card",
+      "src": "every-bali-map-card-hd.png"
     },
     {
       "id": "every-bali-t122",
@@ -868,7 +876,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "bali-phone-shell",
-      "text": "Every Bali mobile unit details and offer action"
+      "text": "Every Bali mobile unit details and offer action",
+      "src": "every-bali-unit-details-hd.png"
     },
     {
       "id": "every-bali-t124",

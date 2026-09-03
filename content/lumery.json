@@ -42,7 +42,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "lumery-hero-image",
-      "text": "Lumery smart glasses and internal electronic architecture"
+      "text": "Lumery smart glasses and internal electronic architecture",
+      "src": "lumery-hero-system.png"
     },
     {
       "id": "lumery-t6",
@@ -175,7 +176,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "lumery-product-hero",
-      "text": "Front view of Lumery smart glasses"
+      "text": "Front view of Lumery smart glasses",
+      "src": "lumery-product-front.png"
     },
     {
       "id": "lumery-t25",
@@ -196,7 +198,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "lumery-components",
-      "text": "Lumery left temple architecture with camera, processor and speaker"
+      "text": "Lumery left temple architecture with camera, processor and speaker",
+      "src": "lumery-components-left.png"
     },
     {
       "id": "lumery-t28",
@@ -210,7 +213,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "lumery-components",
-      "text": "Lumery right temple architecture with battery and LiDAR"
+      "text": "Lumery right temple architecture with battery and LiDAR",
+      "src": "lumery-components-right.png"
     },
     {
       "id": "lumery-t30",
@@ -301,7 +305,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Lumery illuminated physical control detail"
+      "text": "Lumery illuminated physical control detail",
+      "src": "lumery-control-detail.png"
     },
     {
       "id": "lumery-t43",
@@ -315,7 +320,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Transparent charging case for Lumery glasses"
+      "text": "Transparent charging case for Lumery glasses",
+      "src": "lumery-charging-case.png"
     },
     {
       "id": "lumery-t45",
@@ -357,7 +363,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Lumery companion app with social vision feed"
+      "text": "Lumery companion app with social vision feed",
+      "src": "lumery-app-visions.png"
     },
     {
       "id": "lumery-t51",
@@ -371,7 +378,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Lumery modular system interface and device states"
+      "text": "Lumery modular system interface and device states",
+      "src": "lumery-system-ui.png"
     },
     {
       "id": "lumery-t53",
@@ -385,7 +393,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Lumery website and digital visual language"
+      "text": "Lumery website and digital visual language",
+      "src": "lumery-digital-ecosystem.png"
     },
     {
       "id": "lumery-t55",
@@ -1274,7 +1283,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "workfile-canvas",
-      "text": "Lumery app architecture, user scenarios and flow charts in Figma"
+      "text": "Lumery app architecture, user scenarios and flow charts in Figma",
+      "src": "lumery-figma-architecture.jpg"
     },
     {
       "id": "lumery-t182",
@@ -1379,7 +1389,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "lumery-motion-stage",
-      "text": "Lumery motion identity studies"
+      "text": "Lumery motion identity studies",
+      "src": "lumery-motion-language.png"
     },
     {
       "id": "lumery-t197",
@@ -1421,7 +1432,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Lumery 3D product asset system"
+      "text": "Lumery 3D product asset system",
+      "src": "lumery-3d-system.png"
     },
     {
       "id": "lumery-t203",
@@ -1435,7 +1447,8 @@
       "kind": "alt",
       "tag": "img",
       "hint": "reveal",
-      "text": "Lumery design process and visual research"
+      "text": "Lumery design process and visual research",
+      "src": "lumery-process.png"
     },
     {
       "id": "lumery-t205",
