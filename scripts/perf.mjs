@@ -6,7 +6,7 @@ import { chromium } from 'playwright';
 import { mkdirSync, writeFileSync } from 'node:fs';
 
 const phase = process.argv[process.argv.indexOf('--phase') + 1] || '0';
-if (+phase >= 9) {                                                    // motion phases probe the real pages, not the lab
+if (+phase >= 9 && !process.argv.includes('--lab')) {                                                    // motion phases probe the real pages, not the lab
   const { runMotionProbe } = await import('./motion-probe.mjs');
   const r = await runMotionProbe(phase);
   console.log(JSON.stringify(r, null, 1));

@@ -96,7 +96,7 @@ ${renderNav({ current: '' })}
     <div class="index">${cases.map(row).join('')}</div>
     <figure class="plate reel">
       <div class="plate__media video">
-        <video src="${m('particle-video.mp4')}" preload="metadata" playsinline muted loop width="854" height="480"></video>
+        <video src="${m('particle-video.mp4')}" poster="${m('particle-video-poster.jpg')}" preload="metadata" playsinline muted loop width="854" height="480"></video>
         <button class="video__play" type="button">Play</button>
       </div>
       <div class="plate__title"><div>Sheet<b>Reel</b></div><div>Format<b>Motion</b></div></div>

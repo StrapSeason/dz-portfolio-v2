@@ -80,8 +80,8 @@ ${hero({ kicker: t('t6'), title: t('t7'), lead: t('t8'), facts: [[t('t9'), t('t1
     ${legendGroups.map(([g, items]) => `<div class="workfile__group"><span class="label">${esc(g)}</span>${items.map((s) => `<span class="chip">${esc(s)}</span>`).join('')}</div>`).join('')}
     <p class="label"><b>${esc(t('t179'))}</b> · <a href="./media/${files[0]}" target="_blank" rel="noreferrer">${esc(t('t180'))}</a></p>
   </div>
-  <div class="workfile__views">${views.map((v) => plate({ src: v.file, alt: v.alt, w: 2560, h: 1440, caption: [v.path, v.index], title: [['Stage', v.stage], ['Sheet', v.index]], cls: 'workfile__view' }) + `<div class="workfile__copy"><h4 class="display h3">${esc(v.title)}</h4><p class="body">${esc(v.desc)}</p></div>`).join('')}</div>
-  <div class="workfile__copy"><small class="label">${esc(t('t182'))}</small><h4 class="display h3">${esc(t('t183'))}</h4><p class="body">${esc(t('t184'))}</p><p class="muted">${esc(t('t185'))}</p></div>
+  <div class="workfile__views">${views.map((v) => plate({ src: v.file, alt: v.alt, w: 2560, h: 1440, caption: [v.path, v.index], title: [['Stage', v.stage], ['Sheet', v.index]], cls: 'workfile__view' }) + `<div class="workfile__copy"><h3 class="display h3">${esc(v.title)}</h3><p class="body">${esc(v.desc)}</p></div>`).join('')}</div>
+  <div class="workfile__copy"><small class="label">${esc(t('t182'))}</small><h3 class="display h3">${esc(t('t183'))}</h3><p class="body">${esc(t('t184'))}</p><p class="muted">${esc(t('t185'))}</p></div>
   <p class="label workfile__note">${esc(t('t186'))} · ${esc(t('t187'))}</p>
 </section>
 

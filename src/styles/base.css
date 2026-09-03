@@ -47,7 +47,9 @@ ul, ol { padding: 0; list-style: none; }
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; border-radius: var(--radius-control); }
 
 /* type primitives */
-.display { font-family: var(--font-display); font-variation-settings: "wdth" var(--wdth-display); font-weight: 500; letter-spacing: var(--tracking-display); line-height: var(--leading-tight); text-wrap: balance; }
+.display { font-family: var(--font-display); font-variation-settings: "wdth" var(--wdth-display); font-weight: 500; letter-spacing: var(--tracking-display); line-height: var(--leading-tight); text-wrap: balance; overflow-wrap: anywhere; }
+/* below 400px the expanded width axis is the one thing that can still overflow a column */
+@media (max-width: 400px) { :root { --wdth-display: 100; } .h1 { font-size: clamp(2.2rem, 11vw, 2.75rem); } .title { font-size: clamp(3rem, 16vw, 4rem); } }
 .display--light { font-weight: 300; font-variation-settings: "wdth" var(--wdth-narrow); }
 .h1 { font-size: var(--step-4); }
 .h2 { font-size: var(--step-3); line-height: var(--leading-snug); letter-spacing: -.025em; }

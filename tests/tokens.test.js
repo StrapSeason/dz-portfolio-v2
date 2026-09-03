@@ -17,7 +17,6 @@ describe('token contrast', () => {
     it(`${b.sel}: ink/bg ≥ 4.5 and muted/bg ≥ 3`, () => {
       const bg = tok(b.body, '--bg'), ink = tok(b.body, '--ink'), muted = tok(b.body, '--muted'), accent = tok(b.body, '--accent');
       const ci = contrast(ink, bg), cm = contrast(muted, bg), ca = contrast(accent, bg);
-      console.log(`${b.sel}  ink/bg=${ci.toFixed(2)}  muted/bg=${cm.toFixed(2)}  accent/bg=${ca.toFixed(2)}`);
       expect(ci).toBeGreaterThanOrEqual(4.5);
       expect(cm).toBeGreaterThanOrEqual(3);
       expect(ca).toBeGreaterThanOrEqual(3);

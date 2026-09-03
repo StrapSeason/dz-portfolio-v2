@@ -54,7 +54,7 @@
 .role-card { display: grid; gap: 10px; align-content: start; padding: var(--space-2); border: 1px solid var(--rule); min-height: 200px; }
 
 .case-outro { display: grid; gap: var(--space-3); }
-.next-case { display: inline-flex; gap: .3em; align-items: baseline; transition: color var(--dur-fast) var(--ease-out); }
+.next-case { display: inline-flex; flex-wrap: wrap; gap: .3em; align-items: baseline; overflow-wrap: anywhere; transition: color var(--dur-fast) var(--ease-out); }
 .next-case:hover { color: var(--accent); }
 .next-case:focus-visible { outline: 2px solid var(--focus); outline-offset: 6px; }
 .case-footer { display: grid; grid-template-columns: 1fr 1fr auto; gap: var(--space-2); border-top: 1px solid var(--ink); padding-top: var(--space-2); font-family: var(--font-mono); font-size: var(--step--1); letter-spacing: .06em; text-transform: uppercase; }

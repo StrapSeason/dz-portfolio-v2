@@ -13,7 +13,8 @@
     "perf": "node scripts/perf.mjs",
     "pages": "node scripts/build-pages.mjs",
     "prebuild": "node scripts/build-pages.mjs",
-    "deploy": "node scripts/deploy-branch.mjs"
+    "deploy": "node scripts/deploy-branch.mjs",
+    "posters": "node scripts/posters.mjs"
   },
   "keywords": [],
   "author": "",
