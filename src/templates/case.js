@@ -34,8 +34,8 @@ export const head = ({ title, desc, ogImage, extraCss = [] }) => `<!doctype html
 
 /* the case pages carried their own nav strings ("All work", brand, "Contact") */
 export const caseNav = (allWork, brand, contact) => `<header class="site-header case-nav">
-  <a class="nav-back" href="/#work">← <span>${esc(allWork)}</span></a>
-  <a class="wordmark wordmark--inline" href="/">${esc(brand)}</a>
+  <a class="nav-back" href="./#work">← <span>${esc(allWork)}</span></a>
+  <a class="wordmark wordmark--inline" href="./">${esc(brand)}</a>
   <nav class="nav"><a href="#contact">${esc(contact)}</a></nav>
 </header>`;
 
