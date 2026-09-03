@@ -1,0 +1,31 @@
+{
+  "name": "dz-portfolio-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "shots": "node scripts/shots.mjs",
+    "extract": "node scripts/extract-content.mjs && node scripts/copy-media.mjs && node scripts/render-placeholder.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "private": "true",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.1",
+    "globals": "^17.12.0",
+    "gsap": "^3.15.0",
+    "node-html-parser": "^9.0.3",
+    "playwright": "^1.62.1",
+    "three": "^0.185.1",
+    "vite": "^6.4.3",
+    "vitest": "^4.1.11"
+  }
+}

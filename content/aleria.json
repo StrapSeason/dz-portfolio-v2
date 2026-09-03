@@ -1,0 +1,720 @@
+{
+  "page": "aleria",
+  "source": "case-aleria.html",
+  "records": [
+    {
+      "id": "aleria-title",
+      "kind": "title",
+      "tag": "title",
+      "hint": "head",
+      "text": "Aleria — Daniil Zinoviev"
+    },
+    {
+      "id": "aleria-desc",
+      "kind": "meta",
+      "tag": "meta",
+      "hint": "head",
+      "text": "Aleria case study by Daniil Zinoviev — brand direction, product design and motion for enterprise AI."
+    },
+    {
+      "id": "aleria-t2",
+      "kind": "text",
+      "tag": "span",
+      "hint": "case-nav",
+      "text": "All work"
+    },
+    {
+      "id": "aleria-t3",
+      "kind": "text",
+      "tag": "a",
+      "hint": "brand",
+      "text": "Daniil Zinoviev"
+    },
+    {
+      "id": "aleria-t4",
+      "kind": "text",
+      "tag": "a",
+      "hint": "case-nav",
+      "text": "Contact"
+    },
+    {
+      "id": "aleria-t5",
+      "kind": "text",
+      "tag": "p",
+      "hint": "kicker",
+      "text": "Enterprise AI · UAE"
+    },
+    {
+      "id": "aleria-t6",
+      "kind": "text",
+      "tag": "h1",
+      "hint": "reveal",
+      "text": "Aleria"
+    },
+    {
+      "id": "aleria-t7",
+      "kind": "text",
+      "tag": "p",
+      "hint": "hero-bottom",
+      "text": "Building one visual system across an enterprise AI product, its brand and public communication."
+    },
+    {
+      "id": "aleria-t8",
+      "kind": "text",
+      "tag": "small",
+      "hint": "hero-facts",
+      "text": "Role"
+    },
+    {
+      "id": "aleria-t9",
+      "kind": "text",
+      "tag": "span",
+      "hint": "hero-facts",
+      "text": "Brand Director"
+    },
+    {
+      "id": "aleria-t10",
+      "kind": "text",
+      "tag": "small",
+      "hint": "hero-facts",
+      "text": "Period"
+    },
+    {
+      "id": "aleria-t11",
+      "kind": "text",
+      "tag": "span",
+      "hint": "hero-facts",
+      "text": "2024—2025"
+    },
+    {
+      "id": "aleria-t12",
+      "kind": "text",
+      "tag": "small",
+      "hint": "hero-facts",
+      "text": "Scope"
+    },
+    {
+      "id": "aleria-t13",
+      "kind": "text",
+      "tag": "span",
+      "hint": "hero-facts",
+      "text": "Brand · Product · Motion"
+    },
+    {
+      "id": "aleria-t14",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "Context"
+    },
+    {
+      "id": "aleria-t15",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "A fast-growing AI company needed to look like"
+    },
+    {
+      "id": "aleria-t16",
+      "kind": "text",
+      "tag": "em",
+      "hint": "statement",
+      "text": "one company"
+    },
+    {
+      "id": "aleria-t17",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "across product, sales, events and institutional communication."
+    },
+    {
+      "id": "aleria-t18",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "text-grid",
+      "text": "From a fragmented identity to a working visual system."
+    },
+    {
+      "id": "aleria-t19",
+      "kind": "text",
+      "tag": "p",
+      "hint": "text-grid",
+      "text": "Aleria’s identity was still raw and inconsistent. My task was to define a recognizable direction that could carry a broad product ecosystem, enterprise sales materials and high-visibility public communication without losing clarity."
+    },
+    {
+      "id": "aleria-t20",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "media-full",
+      "text": "Aleria C-level AI ecosystem presentation"
+    },
+    {
+      "id": "aleria-t21",
+      "kind": "text",
+      "tag": "span",
+      "hint": "media-caption",
+      "text": "Brand and product architecture"
+    },
+    {
+      "id": "aleria-t22",
+      "kind": "text",
+      "tag": "span",
+      "hint": "media-caption",
+      "text": "Aleria C-level AI ecosystem"
+    },
+    {
+      "id": "aleria-t23",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "The system"
+    },
+    {
+      "id": "aleria-t24",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "The brand had to move from a logo into a"
+    },
+    {
+      "id": "aleria-t25",
+      "kind": "text",
+      "tag": "em",
+      "hint": "statement",
+      "text": "repeatable operating system."
+    },
+    {
+      "id": "aleria-t26",
+      "kind": "text",
+      "tag": "span",
+      "hint": "system-list",
+      "text": "Brandbook and visual principles"
+    },
+    {
+      "id": "aleria-t27",
+      "kind": "text",
+      "tag": "em",
+      "hint": "system-list",
+      "text": "Foundation"
+    },
+    {
+      "id": "aleria-t28",
+      "kind": "text",
+      "tag": "span",
+      "hint": "system-list",
+      "text": "Main website, pricing and product pages"
+    },
+    {
+      "id": "aleria-t29",
+      "kind": "text",
+      "tag": "em",
+      "hint": "system-list",
+      "text": "Acquisition"
+    },
+    {
+      "id": "aleria-t30",
+      "kind": "text",
+      "tag": "span",
+      "hint": "system-list",
+      "text": "Mobile onboarding, store screens and web UI"
+    },
+    {
+      "id": "aleria-t31",
+      "kind": "text",
+      "tag": "em",
+      "hint": "system-list",
+      "text": "Product"
+    },
+    {
+      "id": "aleria-t32",
+      "kind": "text",
+      "tag": "span",
+      "hint": "system-list",
+      "text": "Commercial decks, roll-ups, flyers and manuals"
+    },
+    {
+      "id": "aleria-t33",
+      "kind": "text",
+      "tag": "em",
+      "hint": "system-list",
+      "text": "Sales / Events"
+    },
+    {
+      "id": "aleria-t34",
+      "kind": "text",
+      "tag": "span",
+      "hint": "system-list",
+      "text": "Campaign motion and video-production systems"
+    },
+    {
+      "id": "aleria-t35",
+      "kind": "text",
+      "tag": "em",
+      "hint": "system-list",
+      "text": "Communication"
+    },
+    {
+      "id": "aleria-t36",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "showcase-image",
+      "text": "Aleria rules for typography and brand naming"
+    },
+    {
+      "id": "aleria-t37",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Brand rules / language and typography"
+    },
+    {
+      "id": "aleria-t38",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "Website and product"
+    },
+    {
+      "id": "aleria-t39",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "The same visual logic connects the public story with a"
+    },
+    {
+      "id": "aleria-t40",
+      "kind": "text",
+      "tag": "em",
+      "hint": "statement",
+      "text": "complex AI product ecosystem."
+    },
+    {
+      "id": "aleria-t41",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "text-grid",
+      "text": "From positioning to detailed product decisions."
+    },
+    {
+      "id": "aleria-t42",
+      "kind": "text",
+      "tag": "p",
+      "hint": "text-grid",
+      "text": "I designed the main website direction, product and industry communication, pricing logic and supporting pages as parts of one system. The experience had to explain a technically broad platform without turning into generic enterprise software."
+    },
+    {
+      "id": "aleria-t43",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "showcase-image",
+      "text": "Aleria ecosystem across AI products and devices"
+    },
+    {
+      "id": "aleria-t44",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Product ecosystem / website communication"
+    },
+    {
+      "id": "aleria-t45",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "showcase-image",
+      "text": "Aleria enterprise use-case system"
+    },
+    {
+      "id": "aleria-t46",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Enterprise use cases / scalable content system"
+    },
+    {
+      "id": "aleria-t47",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "Product experience"
+    },
+    {
+      "id": "aleria-t48",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "The brand continues inside the product through"
+    },
+    {
+      "id": "aleria-t49",
+      "kind": "text",
+      "tag": "em",
+      "hint": "statement",
+      "text": "content, interaction and motion-ready states."
+    },
+    {
+      "id": "aleria-t50",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "text-grid",
+      "text": "A visual system designed to work, not only to present."
+    },
+    {
+      "id": "aleria-t51",
+      "kind": "text",
+      "tag": "p",
+      "hint": "text-grid",
+      "text": "The Figma production file covers onboarding, personal AI surfaces, widgets, workspaces, account and settings states, banners, waitlists, store screens and web UI explorations. Product-update communication turned complex features into a clear, recognizable visual narrative."
+    },
+    {
+      "id": "aleria-t52",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Aleria v8.5 product update overview"
+    },
+    {
+      "id": "aleria-t53",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Aleria v8.5 / product update system"
+    },
+    {
+      "id": "aleria-t54",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Aleria datarooms, workflows and Arabic support product update"
+    },
+    {
+      "id": "aleria-t55",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Datarooms / workflows / Arabic support"
+    },
+    {
+      "id": "aleria-t56",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Aleria deep index and document understanding product update"
+    },
+    {
+      "id": "aleria-t57",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Deep index / visual document understanding"
+    },
+    {
+      "id": "aleria-t58",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Aleria deep workflow reports product update"
+    },
+    {
+      "id": "aleria-t59",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Deep workflow reports"
+    },
+    {
+      "id": "aleria-t60",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "Onboarding film / 06 scenes"
+    },
+    {
+      "id": "aleria-t61",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "motion-heading",
+      "text": "Your AI, already part of your day."
+    },
+    {
+      "id": "aleria-t62",
+      "kind": "text",
+      "tag": "p",
+      "hint": "motion-heading",
+      "text": "A cinematic onboarding system introduces Aleria through familiar moments instead of a conventional feature tour — from home and office to meetings, dinner and tomorrow."
+    },
+    {
+      "id": "aleria-t63",
+      "kind": "text",
+      "tag": "strong",
+      "hint": "motion-feature",
+      "text": "Your tomorrow"
+    },
+    {
+      "id": "aleria-t64",
+      "kind": "text",
+      "tag": "em",
+      "hint": "motion-feature",
+      "text": "Onboarding film"
+    },
+    {
+      "id": "aleria-t65",
+      "kind": "text",
+      "tag": "strong",
+      "hint": "motion-card",
+      "text": "At home"
+    },
+    {
+      "id": "aleria-t66",
+      "kind": "text",
+      "tag": "strong",
+      "hint": "motion-card",
+      "text": "At the office"
+    },
+    {
+      "id": "aleria-t67",
+      "kind": "text",
+      "tag": "strong",
+      "hint": "motion-card",
+      "text": "At a meeting"
+    },
+    {
+      "id": "aleria-t68",
+      "kind": "text",
+      "tag": "strong",
+      "hint": "motion-card",
+      "text": "At a board meeting"
+    },
+    {
+      "id": "aleria-t69",
+      "kind": "text",
+      "tag": "strong",
+      "hint": "motion-card",
+      "text": "At dinner"
+    },
+    {
+      "id": "aleria-t70",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Aleria mobile onboarding permissions screen"
+    },
+    {
+      "id": "aleria-t71",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Onboarding / permissions and trust"
+    },
+    {
+      "id": "aleria-t72",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "Sales and institutional communication"
+    },
+    {
+      "id": "aleria-t73",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "One system had to remain credible in a product demo, a leadership presentation and"
+    },
+    {
+      "id": "aleria-t74",
+      "kind": "text",
+      "tag": "em",
+      "hint": "statement",
+      "text": "a physical event space."
+    },
+    {
+      "id": "aleria-t75",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "text-grid",
+      "text": "Designed for different levels of attention."
+    },
+    {
+      "id": "aleria-t76",
+      "kind": "text",
+      "tag": "p",
+      "hint": "text-grid",
+      "text": "Commercial presentations explain sovereignty, privacy and the relationship between executive AI, operations and support functions. Roll-ups and flyers compress the same language into immediate, high-contrast communication for events."
+    },
+    {
+      "id": "aleria-t77",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Aleria AI and data sovereignty presentation slide"
+    },
+    {
+      "id": "aleria-t78",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Aleria event roll-up design"
+    },
+    {
+      "id": "aleria-t79",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "My role"
+    },
+    {
+      "id": "aleria-t80",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "I owned the visual system and made the"
+    },
+    {
+      "id": "aleria-t81",
+      "kind": "text",
+      "tag": "em",
+      "hint": "statement",
+      "text": "final brand decisions."
+    },
+    {
+      "id": "aleria-t82",
+      "kind": "text",
+      "tag": "span",
+      "hint": "role-card",
+      "text": "Direction"
+    },
+    {
+      "id": "aleria-t83",
+      "kind": "text",
+      "tag": "p",
+      "hint": "role-card",
+      "text": "Defined the visual language and carried it across every major touchpoint."
+    },
+    {
+      "id": "aleria-t84",
+      "kind": "text",
+      "tag": "span",
+      "hint": "role-card",
+      "text": "Leadership"
+    },
+    {
+      "id": "aleria-t85",
+      "kind": "text",
+      "tag": "p",
+      "hint": "role-card",
+      "text": "Directed a team of two, distributed tasks and conducted design reviews."
+    },
+    {
+      "id": "aleria-t86",
+      "kind": "text",
+      "tag": "span",
+      "hint": "role-card",
+      "text": "Alignment"
+    },
+    {
+      "id": "aleria-t87",
+      "kind": "text",
+      "tag": "p",
+      "hint": "role-card",
+      "text": "Presented creative decisions and worked with leadership and product stakeholders."
+    },
+    {
+      "id": "aleria-t88",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "Delivery"
+    },
+    {
+      "id": "aleria-t89",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "The outcome was not a single campaign. It was a"
+    },
+    {
+      "id": "aleria-t90",
+      "kind": "text",
+      "tag": "em",
+      "hint": "statement",
+      "text": "connected brand and product ecosystem."
+    },
+    {
+      "id": "aleria-t91",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "text-grid",
+      "text": "Designed for mission-critical, enterprise-scale communication."
+    },
+    {
+      "id": "aleria-t92",
+      "kind": "text",
+      "tag": "p",
+      "hint": "text-grid",
+      "text": "The final system covered external brand communication, product interfaces, institutional presentations, events, internal documents and motion. Claims shown here are limited to work from my tenure; later changes to the live website are not presented as my authorship."
+    },
+    {
+      "id": "aleria-t93",
+      "kind": "text",
+      "tag": "a",
+      "hint": "live-link",
+      "text": "Visit current Aleria website ↗"
+    },
+    {
+      "id": "aleria-t94",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "media-full",
+      "text": "Examples of Aleria deployments and public communication"
+    },
+    {
+      "id": "aleria-t95",
+      "kind": "text",
+      "tag": "span",
+      "hint": "media-caption",
+      "text": "Selected deployment and communication context"
+    },
+    {
+      "id": "aleria-t96",
+      "kind": "text",
+      "tag": "span",
+      "hint": "media-caption",
+      "text": "Contemporaneous presentation material"
+    },
+    {
+      "id": "aleria-t97",
+      "kind": "text",
+      "tag": "p",
+      "hint": "case-outro",
+      "text": "Next case"
+    },
+    {
+      "id": "aleria-t98",
+      "kind": "text",
+      "tag": "span",
+      "hint": "next-link",
+      "text": "Lumery"
+    },
+    {
+      "id": "aleria-t99",
+      "kind": "text",
+      "tag": "p",
+      "hint": "case-footer",
+      "text": "Daniil Zinoviev"
+    },
+    {
+      "id": "aleria-t100",
+      "kind": "text",
+      "tag": "p",
+      "hint": "case-footer",
+      "text": "Multidisciplinary Art Director"
+    },
+    {
+      "id": "aleria-t101",
+      "kind": "text",
+      "tag": "a",
+      "hint": "case-footer",
+      "text": "reak1315@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,1833 @@
+{
+  "page": "lumery",
+  "source": "case-lumery.html",
+  "records": [
+    {
+      "id": "lumery-title",
+      "kind": "title",
+      "tag": "title",
+      "hint": "head",
+      "text": "Lumery Glasses — Daniil Zinoviev"
+    },
+    {
+      "id": "lumery-desc",
+      "kind": "meta",
+      "tag": "meta",
+      "hint": "head",
+      "text": "Lumery Glasses case study by Daniil Zinoviev — physical product direction, visual language, interface design and interaction logic for AI glasses."
+    },
+    {
+      "id": "lumery-t2",
+      "kind": "text",
+      "tag": "span",
+      "hint": "case-nav",
+      "text": "All work"
+    },
+    {
+      "id": "lumery-t3",
+      "kind": "text",
+      "tag": "a",
+      "hint": "brand",
+      "text": "Daniil Zinoviev"
+    },
+    {
+      "id": "lumery-t4",
+      "kind": "text",
+      "tag": "a",
+      "hint": "case-nav",
+      "text": "Contact"
+    },
+    {
+      "id": "lumery-t5",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "lumery-hero-image",
+      "text": "Lumery smart glasses and internal electronic architecture"
+    },
+    {
+      "id": "lumery-t6",
+      "kind": "text",
+      "tag": "p",
+      "hint": "kicker",
+      "text": "AI wearable · In development"
+    },
+    {
+      "id": "lumery-t7",
+      "kind": "text",
+      "tag": "h1",
+      "hint": "reveal",
+      "text": "Lumery"
+    },
+    {
+      "id": "lumery-t8",
+      "kind": "text",
+      "tag": "p",
+      "hint": "hero-bottom",
+      "text": "Shaping an AI wearable as one connected physical, digital and visual product."
+    },
+    {
+      "id": "lumery-t9",
+      "kind": "text",
+      "tag": "small",
+      "hint": "hero-facts",
+      "text": "Role"
+    },
+    {
+      "id": "lumery-t10",
+      "kind": "text",
+      "tag": "span",
+      "hint": "hero-facts",
+      "text": "Product / Visual Designer"
+    },
+    {
+      "id": "lumery-t11",
+      "kind": "text",
+      "tag": "small",
+      "hint": "hero-facts",
+      "text": "Period"
+    },
+    {
+      "id": "lumery-t12",
+      "kind": "text",
+      "tag": "span",
+      "hint": "hero-facts",
+      "text": "Dec 2025—May 2026"
+    },
+    {
+      "id": "lumery-t13",
+      "kind": "text",
+      "tag": "small",
+      "hint": "hero-facts",
+      "text": "Team"
+    },
+    {
+      "id": "lumery-t14",
+      "kind": "text",
+      "tag": "span",
+      "hint": "hero-facts",
+      "text": "CEO + 2 designers"
+    },
+    {
+      "id": "lumery-t15",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "Product question"
+    },
+    {
+      "id": "lumery-t16",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "How can AI live on the face and still feel like"
+    },
+    {
+      "id": "lumery-t17",
+      "kind": "text",
+      "tag": "em",
+      "hint": "statement",
+      "text": "a personal object, not a gadget?"
+    },
+    {
+      "id": "lumery-t18",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "text-grid",
+      "text": "One product across hardware, software and brand."
+    },
+    {
+      "id": "lumery-t19",
+      "kind": "text",
+      "tag": "p",
+      "hint": "text-grid",
+      "text": "Lumery began as an early-stage smart-glasses product. Working directly with the CEO and one other designer, I helped develop the product direction, visual language, companion experience and interaction logic as one coherent system."
+    },
+    {
+      "id": "lumery-t20",
+      "kind": "text",
+      "tag": "p",
+      "hint": "lumery-stage-heading",
+      "text": "Physical product"
+    },
+    {
+      "id": "lumery-t21",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "lumery-stage-heading",
+      "text": "Designed around"
+    },
+    {
+      "id": "lumery-t22",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "lumery-stage-heading",
+      "text": "what has to live inside."
+    },
+    {
+      "id": "lumery-t23",
+      "kind": "text",
+      "tag": "span",
+      "hint": "lumery-stage-heading",
+      "text": "The frame had to balance a familiar eyewear silhouette with the real constraints of an AI device."
+    },
+    {
+      "id": "lumery-t24",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "lumery-product-hero",
+      "text": "Front view of Lumery smart glasses"
+    },
+    {
+      "id": "lumery-t25",
+      "kind": "text",
+      "tag": "span",
+      "hint": "lumery-product-hero",
+      "text": "Front view"
+    },
+    {
+      "id": "lumery-t26",
+      "kind": "text",
+      "tag": "span",
+      "hint": "lumery-product-hero",
+      "text": "Physical product direction"
+    },
+    {
+      "id": "lumery-t27",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "lumery-components",
+      "text": "Lumery left temple architecture with camera, processor and speaker"
+    },
+    {
+      "id": "lumery-t28",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "lumery-components",
+      "text": "Left side / camera · SoC · speaker"
+    },
+    {
+      "id": "lumery-t29",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "lumery-components",
+      "text": "Lumery right temple architecture with battery and LiDAR"
+    },
+    {
+      "id": "lumery-t30",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "lumery-components",
+      "text": "Right side / battery · LiDAR"
+    },
+    {
+      "id": "lumery-t31",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "Product principles"
+    },
+    {
+      "id": "lumery-t32",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "Technology is present, but the object remains"
+    },
+    {
+      "id": "lumery-t33",
+      "kind": "text",
+      "tag": "em",
+      "hint": "statement",
+      "text": "quiet, wearable and understandable."
+    },
+    {
+      "id": "lumery-t34",
+      "kind": "text",
+      "tag": "span",
+      "hint": "system-list",
+      "text": "Keep the front silhouette close to everyday eyewear"
+    },
+    {
+      "id": "lumery-t35",
+      "kind": "text",
+      "tag": "em",
+      "hint": "system-list",
+      "text": "Wearability"
+    },
+    {
+      "id": "lumery-t36",
+      "kind": "text",
+      "tag": "span",
+      "hint": "system-list",
+      "text": "Use the temples to organize the technical architecture"
+    },
+    {
+      "id": "lumery-t37",
+      "kind": "text",
+      "tag": "em",
+      "hint": "system-list",
+      "text": "Integration"
+    },
+    {
+      "id": "lumery-t38",
+      "kind": "text",
+      "tag": "span",
+      "hint": "system-list",
+      "text": "Turn status and control into restrained light cues"
+    },
+    {
+      "id": "lumery-t39",
+      "kind": "text",
+      "tag": "em",
+      "hint": "system-list",
+      "text": "Feedback"
+    },
+    {
+      "id": "lumery-t40",
+      "kind": "text",
+      "tag": "span",
+      "hint": "system-list",
+      "text": "Extend the same geometry into charging and packaging"
+    },
+    {
+      "id": "lumery-t41",
+      "kind": "text",
+      "tag": "em",
+      "hint": "system-list",
+      "text": "Ecosystem"
+    },
+    {
+      "id": "lumery-t42",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Lumery illuminated physical control detail"
+    },
+    {
+      "id": "lumery-t43",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Physical control / light as feedback"
+    },
+    {
+      "id": "lumery-t44",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Transparent charging case for Lumery glasses"
+    },
+    {
+      "id": "lumery-t45",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Charging case / product ecosystem"
+    },
+    {
+      "id": "lumery-t46",
+      "kind": "text",
+      "tag": "p",
+      "hint": "lumery-stage-heading",
+      "text": "Digital product"
+    },
+    {
+      "id": "lumery-t47",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "lumery-stage-heading",
+      "text": "The interface continues"
+    },
+    {
+      "id": "lumery-t48",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "lumery-stage-heading",
+      "text": "what the glasses start."
+    },
+    {
+      "id": "lumery-t49",
+      "kind": "text",
+      "tag": "span",
+      "hint": "lumery-stage-heading",
+      "text": "The companion product organizes captured moments, system states and personal context without falling back on a generic dashboard."
+    },
+    {
+      "id": "lumery-t50",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Lumery companion app with social vision feed"
+    },
+    {
+      "id": "lumery-t51",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Companion app / visions"
+    },
+    {
+      "id": "lumery-t52",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Lumery modular system interface and device states"
+    },
+    {
+      "id": "lumery-t53",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Modular interface / device states"
+    },
+    {
+      "id": "lumery-t54",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Lumery website and digital visual language"
+    },
+    {
+      "id": "lumery-t55",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Web and communication ecosystem"
+    },
+    {
+      "id": "lumery-t56",
+      "kind": "text",
+      "tag": "p",
+      "hint": "lumery-stage-heading",
+      "text": "Product architecture"
+    },
+    {
+      "id": "lumery-t57",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "lumery-stage-heading",
+      "text": "Not a companion app."
+    },
+    {
+      "id": "lumery-t58",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "lumery-stage-heading",
+      "text": "A second layer of memory."
+    },
+    {
+      "id": "lumery-t59",
+      "kind": "text",
+      "tag": "span",
+      "hint": "lumery-stage-heading",
+      "text": "We designed the logic that turns raw captures into private knowledge, lived experiences and — only when the user chooses — shared visions."
+    },
+    {
+      "id": "lumery-t60",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-pipeline-group",
+      "text": "Capture"
+    },
+    {
+      "id": "lumery-t61",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-pipeline-group",
+      "text": "Camera"
+    },
+    {
+      "id": "lumery-t62",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-pipeline-group",
+      "text": "Voice"
+    },
+    {
+      "id": "lumery-t63",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-pipeline-group",
+      "text": "OCR"
+    },
+    {
+      "id": "lumery-t64",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-pipeline-group",
+      "text": "Phone"
+    },
+    {
+      "id": "lumery-t65",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-pipeline-group",
+      "text": "Understand"
+    },
+    {
+      "id": "lumery-t66",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-pipeline-group",
+      "text": "Entities"
+    },
+    {
+      "id": "lumery-t67",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-pipeline-group",
+      "text": "Intent"
+    },
+    {
+      "id": "lumery-t68",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-pipeline-group",
+      "text": "Context"
+    },
+    {
+      "id": "lumery-t69",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-pipeline-group",
+      "text": "Confidence"
+    },
+    {
+      "id": "lumery-t70",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-pipeline-group",
+      "text": "Private by default"
+    },
+    {
+      "id": "lumery-t71",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-pipeline-group",
+      "text": "MyMind"
+    },
+    {
+      "id": "lumery-t72",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-pipeline-group",
+      "text": "MyWorld"
+    },
+    {
+      "id": "lumery-t73",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-pipeline-group",
+      "text": "Explicit share"
+    },
+    {
+      "id": "lumery-t74",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-pipeline-group",
+      "text": "Visions"
+    },
+    {
+      "id": "lumery-t75",
+      "kind": "text",
+      "tag": "button",
+      "hint": "is-active",
+      "text": "MyMind"
+    },
+    {
+      "id": "lumery-t76",
+      "kind": "text",
+      "tag": "button",
+      "hint": "logic-tabs",
+      "text": "MyWorld"
+    },
+    {
+      "id": "lumery-t77",
+      "kind": "text",
+      "tag": "button",
+      "hint": "logic-tabs",
+      "text": "Visions"
+    },
+    {
+      "id": "lumery-t78",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-panel-copy",
+      "text": "Personal knowledge system"
+    },
+    {
+      "id": "lumery-t79",
+      "kind": "text",
+      "tag": "h3",
+      "hint": "logic-panel-copy",
+      "text": "Save without organizing."
+    },
+    {
+      "id": "lumery-t80",
+      "kind": "text",
+      "tag": "h3",
+      "hint": "logic-panel-copy",
+      "text": "Find without remembering."
+    },
+    {
+      "id": "lumery-t81",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-panel-copy",
+      "text": "MyMind unifies visual search, photos, voice notes, OCR and assistant answers into one card model. Categories describe what something is; collections describe why it matters to the user."
+    },
+    {
+      "id": "lumery-t82",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Capture"
+    },
+    {
+      "id": "lumery-t83",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Glasses, phone, voice or assistant answer"
+    },
+    {
+      "id": "lumery-t84",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Create a MindCard"
+    },
+    {
+      "id": "lumery-t85",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Media + OCR / ASR + entities + provenance"
+    },
+    {
+      "id": "lumery-t86",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Classify by intent"
+    },
+    {
+      "id": "lumery-t87",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Shopping, Research, Food, Work and more"
+    },
+    {
+      "id": "lumery-t88",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Resolve confidence"
+    },
+    {
+      "id": "lumery-t89",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "High → category · uncertain → lightweight Intake"
+    },
+    {
+      "id": "lumery-t90",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Retrieve"
+    },
+    {
+      "id": "lumery-t91",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Semantic search, filters, related cards and collections"
+    },
+    {
+      "id": "lumery-t92",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Resurface"
+    },
+    {
+      "id": "lumery-t93",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Useful knowledge returns by context, time or behavior"
+    },
+    {
+      "id": "lumery-t94",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-model",
+      "text": "System layer"
+    },
+    {
+      "id": "lumery-t95",
+      "kind": "text",
+      "tag": "h4",
+      "hint": "logic-model",
+      "text": "Categories"
+    },
+    {
+      "id": "lumery-t96",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-model",
+      "text": "Automatic structure based on the nature and intent of a capture."
+    },
+    {
+      "id": "lumery-t97",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-model",
+      "text": "User layer"
+    },
+    {
+      "id": "lumery-t98",
+      "kind": "text",
+      "tag": "h4",
+      "hint": "logic-model",
+      "text": "Collections"
+    },
+    {
+      "id": "lumery-t99",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-model",
+      "text": "Cross-category stacks for projects, plans, comparison and inspiration."
+    },
+    {
+      "id": "lumery-t100",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-model",
+      "text": "Quality layer"
+    },
+    {
+      "id": "lumery-t101",
+      "kind": "text",
+      "tag": "h4",
+      "hint": "logic-model",
+      "text": "Intake"
+    },
+    {
+      "id": "lumery-t102",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-model",
+      "text": "A short review queue only when classification confidence is insufficient."
+    },
+    {
+      "id": "lumery-t103",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-panel-copy",
+      "text": "Living travel map"
+    },
+    {
+      "id": "lumery-t104",
+      "kind": "text",
+      "tag": "h3",
+      "hint": "logic-panel-copy",
+      "text": "Raw moments become"
+    },
+    {
+      "id": "lumery-t105",
+      "kind": "text",
+      "tag": "h3",
+      "hint": "logic-panel-copy",
+      "text": "a story worth returning to."
+    },
+    {
+      "id": "lumery-t106",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-panel-copy",
+      "text": "MyWorld converts hands-free captures, movement and location context into trips, routes, moments and AI-built excursions. The map is the primary interface, not a conventional content feed."
+    },
+    {
+      "id": "lumery-t107",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Collect signals"
+    },
+    {
+      "id": "lumery-t108",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Media, voice, time, location and motion state"
+    },
+    {
+      "id": "lumery-t109",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Build events"
+    },
+    {
+      "id": "lumery-t110",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Cluster captures by time, place and movement"
+    },
+    {
+      "id": "lumery-t111",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Segment scenes"
+    },
+    {
+      "id": "lumery-t112",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Arrival, walk, museum, café, sunset"
+    },
+    {
+      "id": "lumery-t113",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Form a trip"
+    },
+    {
+      "id": "lumery-t114",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Route + places + moments + AI summary"
+    },
+    {
+      "id": "lumery-t115",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Generate excursion"
+    },
+    {
+      "id": "lumery-t116",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Selected scenes, narrative, timeline and highlights"
+    },
+    {
+      "id": "lumery-t117",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Replay"
+    },
+    {
+      "id": "lumery-t118",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "A cinematic travel memory instead of another feed"
+    },
+    {
+      "id": "lumery-t119",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-model",
+      "text": "Atomic object"
+    },
+    {
+      "id": "lumery-t120",
+      "kind": "text",
+      "tag": "h4",
+      "hint": "logic-model",
+      "text": "Moment"
+    },
+    {
+      "id": "lumery-t121",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-model",
+      "text": "A meaningful capture with place, time and optional voice context."
+    },
+    {
+      "id": "lumery-t122",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-model",
+      "text": "Spatial object"
+    },
+    {
+      "id": "lumery-t123",
+      "kind": "text",
+      "tag": "h4",
+      "hint": "logic-model",
+      "text": "Route"
+    },
+    {
+      "id": "lumery-t124",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-model",
+      "text": "A navigable path with a timeline and story playback mode."
+    },
+    {
+      "id": "lumery-t125",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-model",
+      "text": "Emotional object"
+    },
+    {
+      "id": "lumery-t126",
+      "kind": "text",
+      "tag": "h4",
+      "hint": "logic-model",
+      "text": "Excursion"
+    },
+    {
+      "id": "lumery-t127",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-model",
+      "text": "An automatically assembled mini-film and guide to a lived experience."
+    },
+    {
+      "id": "lumery-t128",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-panel-copy",
+      "text": "Opt-in social layer"
+    },
+    {
+      "id": "lumery-t129",
+      "kind": "text",
+      "tag": "h3",
+      "hint": "logic-panel-copy",
+      "text": "Share what you saw."
+    },
+    {
+      "id": "lumery-t130",
+      "kind": "text",
+      "tag": "h3",
+      "hint": "logic-panel-copy",
+      "text": "Not a performance of yourself."
+    },
+    {
+      "id": "lumery-t131",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-panel-copy",
+      "text": "A Vision can only come from a real MyMind card, collection or MyWorld moment. Publishing is always explicit; exact locations stay hidden and every shared object can be saved back into someone else’s MyMind."
+    },
+    {
+      "id": "lumery-t132",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Start from private content"
+    },
+    {
+      "id": "lumery-t133",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "MindCard, collection, moment or excursion"
+    },
+    {
+      "id": "lumery-t134",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Choose Share as Vision"
+    },
+    {
+      "id": "lumery-t135",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "No empty posts or content created only for reach"
+    },
+    {
+      "id": "lumery-t136",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Review privacy"
+    },
+    {
+      "id": "lumery-t137",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Preview, coarse location and sensitive-content checks"
+    },
+    {
+      "id": "lumery-t138",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Publish a Vision Card"
+    },
+    {
+      "id": "lumery-t139",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Visual, short context, category and region"
+    },
+    {
+      "id": "lumery-t140",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "React quietly"
+    },
+    {
+      "id": "lumery-t141",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "Feel-based reactions without public competition"
+    },
+    {
+      "id": "lumery-t142",
+      "kind": "text",
+      "tag": "b",
+      "hint": "logic-flow",
+      "text": "Save and reuse"
+    },
+    {
+      "id": "lumery-t143",
+      "kind": "text",
+      "tag": "span",
+      "hint": "logic-flow",
+      "text": "A Vision returns to MyMind as useful knowledge"
+    },
+    {
+      "id": "lumery-t144",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-model",
+      "text": "Default"
+    },
+    {
+      "id": "lumery-t145",
+      "kind": "text",
+      "tag": "h4",
+      "hint": "logic-model",
+      "text": "Private"
+    },
+    {
+      "id": "lumery-t146",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-model",
+      "text": "MyMind and MyWorld never publish automatically."
+    },
+    {
+      "id": "lumery-t147",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-model",
+      "text": "Social mechanic"
+    },
+    {
+      "id": "lumery-t148",
+      "kind": "text",
+      "tag": "h4",
+      "hint": "logic-model",
+      "text": "Reactions"
+    },
+    {
+      "id": "lumery-t149",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-model",
+      "text": "Meaningful signals replace public like counts and noisy comments."
+    },
+    {
+      "id": "lumery-t150",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-model",
+      "text": "Value loop"
+    },
+    {
+      "id": "lumery-t151",
+      "kind": "text",
+      "tag": "h4",
+      "hint": "logic-model",
+      "text": "Save"
+    },
+    {
+      "id": "lumery-t152",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-model",
+      "text": "Other people’s visions become knowledge, collections and future decisions."
+    },
+    {
+      "id": "lumery-t153",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-decisions",
+      "text": "Decision"
+    },
+    {
+      "id": "lumery-t154",
+      "kind": "text",
+      "tag": "h3",
+      "hint": "logic-decisions",
+      "text": "Automation with an escape hatch"
+    },
+    {
+      "id": "lumery-t155",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-decisions",
+      "text": "The system organizes automatically, but exposes confidence, Intake and editing whenever certainty is low."
+    },
+    {
+      "id": "lumery-t156",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-decisions",
+      "text": "Decision"
+    },
+    {
+      "id": "lumery-t157",
+      "kind": "text",
+      "tag": "h3",
+      "hint": "logic-decisions",
+      "text": "One object model across sources"
+    },
+    {
+      "id": "lumery-t158",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-decisions",
+      "text": "Camera, voice, OCR and assistant output become consistent cards instead of separate content silos."
+    },
+    {
+      "id": "lumery-t159",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-decisions",
+      "text": "Decision"
+    },
+    {
+      "id": "lumery-t160",
+      "kind": "text",
+      "tag": "h3",
+      "hint": "logic-decisions",
+      "text": "Search as human memory"
+    },
+    {
+      "id": "lumery-t161",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-decisions",
+      "text": "Semantic retrieval uses text, OCR, transcripts, entities and context — not exact filenames or keywords."
+    },
+    {
+      "id": "lumery-t162",
+      "kind": "text",
+      "tag": "small",
+      "hint": "logic-decisions",
+      "text": "Decision"
+    },
+    {
+      "id": "lumery-t163",
+      "kind": "text",
+      "tag": "h3",
+      "hint": "logic-decisions",
+      "text": "Privacy is part of the structure"
+    },
+    {
+      "id": "lumery-t164",
+      "kind": "text",
+      "tag": "p",
+      "hint": "logic-decisions",
+      "text": "Private-by-default data, explicit sharing and coarse location are product rules, not settings added later."
+    },
+    {
+      "id": "lumery-t165",
+      "kind": "text",
+      "tag": "p",
+      "hint": "workfile-heading",
+      "text": "Inside the working file"
+    },
+    {
+      "id": "lumery-t166",
+      "kind": "text",
+      "tag": "h3",
+      "hint": "workfile-heading",
+      "text": "The portfolio shows a system."
+    },
+    {
+      "id": "lumery-t167",
+      "kind": "text",
+      "tag": "h3",
+      "hint": "workfile-heading",
+      "text": "The Figma file shows the scale."
+    },
+    {
+      "id": "lumery-t168",
+      "kind": "text",
+      "tag": "span",
+      "hint": "workfile-heading",
+      "text": "Click through the actual workspace: product logic, rough structures, connected screen flows, system exploration and prototype states. The editor view is kept intentionally — it shows the density and progression of the work."
+    },
+    {
+      "id": "lumery-t169",
+      "kind": "text",
+      "tag": "b",
+      "hint": "workfile-shell",
+      "text": "Lumery / Workspace"
+    },
+    {
+      "id": "lumery-t170",
+      "kind": "text",
+      "tag": "p",
+      "hint": "workfile-shell",
+      "text": "Logic and structure"
+    },
+    {
+      "id": "lumery-t171",
+      "kind": "text",
+      "tag": "button",
+      "hint": "is-active",
+      "text": "App architecture and logic"
+    },
+    {
+      "id": "lumery-t172",
+      "kind": "text",
+      "tag": "button",
+      "hint": "workfile-shell",
+      "text": "Wireframes / drafts"
+    },
+    {
+      "id": "lumery-t173",
+      "kind": "text",
+      "tag": "p",
+      "hint": "workfile-shell",
+      "text": "Exploration and system"
+    },
+    {
+      "id": "lumery-t174",
+      "kind": "text",
+      "tag": "button",
+      "hint": "workfile-shell",
+      "text": "Main app flow / dark"
+    },
+    {
+      "id": "lumery-t175",
+      "kind": "text",
+      "tag": "button",
+      "hint": "workfile-shell",
+      "text": "UI exploration / system"
+    },
+    {
+      "id": "lumery-t176",
+      "kind": "text",
+      "tag": "button",
+      "hint": "workfile-shell",
+      "text": "Exploration review"
+    },
+    {
+      "id": "lumery-t177",
+      "kind": "text",
+      "tag": "p",
+      "hint": "workfile-shell",
+      "text": "Prototype flows"
+    },
+    {
+      "id": "lumery-t178",
+      "kind": "text",
+      "tag": "button",
+      "hint": "workfile-shell",
+      "text": "Main app flow / light"
+    },
+    {
+      "id": "lumery-t179",
+      "kind": "text",
+      "tag": "b",
+      "hint": "workfile-viewer-bar",
+      "text": "Exploration / App architecture and logic"
+    },
+    {
+      "id": "lumery-t180",
+      "kind": "text",
+      "tag": "a",
+      "hint": "workfile-viewer-bar",
+      "text": "Open high-res ↗"
+    },
+    {
+      "id": "lumery-t181",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "workfile-canvas",
+      "text": "Lumery app architecture, user scenarios and flow charts in Figma"
+    },
+    {
+      "id": "lumery-t182",
+      "kind": "text",
+      "tag": "small",
+      "hint": "workfile-viewer-copy",
+      "text": "Product logic"
+    },
+    {
+      "id": "lumery-t183",
+      "kind": "text",
+      "tag": "h4",
+      "hint": "workfile-viewer-copy",
+      "text": "Architecture before interface"
+    },
+    {
+      "id": "lumery-t184",
+      "kind": "text",
+      "tag": "p",
+      "hint": "workfile-viewer-copy",
+      "text": "User scenarios, technical implementation, object rules and branching flow charts were mapped before the visual layer."
+    },
+    {
+      "id": "lumery-t185",
+      "kind": "text",
+      "tag": "span",
+      "hint": "workfile-viewer-copy",
+      "text": "01 / 06"
+    },
+    {
+      "id": "lumery-t186",
+      "kind": "text",
+      "tag": "span",
+      "hint": "workfile-note",
+      "text": "Six real Figma views · click the navigator"
+    },
+    {
+      "id": "lumery-t187",
+      "kind": "text",
+      "tag": "span",
+      "hint": "workfile-note",
+      "text": "Logic → drafts → flows → system → review → prototype"
+    },
+    {
+      "id": "lumery-t188",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "Visual language"
+    },
+    {
+      "id": "lumery-t189",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "A monochrome base gives the product calm."
+    },
+    {
+      "id": "lumery-t190",
+      "kind": "text",
+      "tag": "em",
+      "hint": "statement",
+      "text": "Light, dots and digital blocks"
+    },
+    {
+      "id": "lumery-t191",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "make it feel alive."
+    },
+    {
+      "id": "lumery-t192",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "text-grid",
+      "text": "A system able to move between object and interface."
+    },
+    {
+      "id": "lumery-t193",
+      "kind": "text",
+      "tag": "p",
+      "hint": "text-grid",
+      "text": "The identity combines restrained typography, technical line work and a modular blue signal. The same ingredients extend into product UI, web communication, 3D scenes and motion studies."
+    },
+    {
+      "id": "lumery-t194",
+      "kind": "text",
+      "tag": "span",
+      "hint": "lumery-signal",
+      "text": "LUMERY SIGNAL"
+    },
+    {
+      "id": "lumery-t195",
+      "kind": "text",
+      "tag": "b",
+      "hint": "lumery-signal",
+      "text": "01:24:08"
+    },
+    {
+      "id": "lumery-t196",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "lumery-motion-stage",
+      "text": "Lumery motion identity studies"
+    },
+    {
+      "id": "lumery-t197",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "lumery-motion-stage",
+      "text": "Motion studies / logotype · product outline · modular signal"
+    },
+    {
+      "id": "lumery-t198",
+      "kind": "text",
+      "tag": "p",
+      "hint": "lumery-stage-heading",
+      "text": "Process"
+    },
+    {
+      "id": "lumery-t199",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "lumery-stage-heading",
+      "text": "From references"
+    },
+    {
+      "id": "lumery-t200",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "lumery-stage-heading",
+      "text": "to a buildable direction."
+    },
+    {
+      "id": "lumery-t201",
+      "kind": "text",
+      "tag": "span",
+      "hint": "lumery-stage-heading",
+      "text": "The work connected research, form studies, component constraints, 3D production, interface logic and presentation."
+    },
+    {
+      "id": "lumery-t202",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Lumery 3D product asset system"
+    },
+    {
+      "id": "lumery-t203",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "3D product asset system"
+    },
+    {
+      "id": "lumery-t204",
+      "kind": "alt",
+      "tag": "img",
+      "hint": "reveal",
+      "text": "Lumery design process and visual research"
+    },
+    {
+      "id": "lumery-t205",
+      "kind": "text",
+      "tag": "figcaption",
+      "hint": "reveal",
+      "text": "Research / form / interface process"
+    },
+    {
+      "id": "lumery-t206",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "Contribution"
+    },
+    {
+      "id": "lumery-t207",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "A collaborative product shaped with the CEO and"
+    },
+    {
+      "id": "lumery-t208",
+      "kind": "text",
+      "tag": "em",
+      "hint": "statement",
+      "text": "one other designer."
+    },
+    {
+      "id": "lumery-t209",
+      "kind": "text",
+      "tag": "span",
+      "hint": "role-card",
+      "text": "Product"
+    },
+    {
+      "id": "lumery-t210",
+      "kind": "text",
+      "tag": "p",
+      "hint": "role-card",
+      "text": "Developed the visual direction of the glasses around the emerging technical architecture."
+    },
+    {
+      "id": "lumery-t211",
+      "kind": "text",
+      "tag": "span",
+      "hint": "role-card",
+      "text": "Digital"
+    },
+    {
+      "id": "lumery-t212",
+      "kind": "text",
+      "tag": "p",
+      "hint": "role-card",
+      "text": "Designed app directions and helped define the logic connecting device, content and user."
+    },
+    {
+      "id": "lumery-t213",
+      "kind": "text",
+      "tag": "span",
+      "hint": "role-card",
+      "text": "System"
+    },
+    {
+      "id": "lumery-t214",
+      "kind": "text",
+      "tag": "p",
+      "hint": "role-card",
+      "text": "Built a visual language that could extend across brand, interface, web, 3D and motion."
+    },
+    {
+      "id": "lumery-t215",
+      "kind": "text",
+      "tag": "p",
+      "hint": "section-label",
+      "text": "Current status"
+    },
+    {
+      "id": "lumery-t216",
+      "kind": "text",
+      "tag": "p",
+      "hint": "statement",
+      "text": "The result is a coherent product direction ready for"
+    },
+    {
+      "id": "lumery-t217",
+      "kind": "text",
+      "tag": "em",
+      "hint": "statement",
+      "text": "further engineering and development."
+    },
+    {
+      "id": "lumery-t218",
+      "kind": "text",
+      "tag": "h2",
+      "hint": "text-grid",
+      "text": "A process case, not a fabricated launch story."
+    },
+    {
+      "id": "lumery-t219",
+      "kind": "text",
+      "tag": "p",
+      "hint": "text-grid",
+      "text": "Lumery remains in development, so this case focuses on decisions, system thinking and design breadth rather than market metrics. The work shown reflects the collaborative design phase from December 2025 to May 2026."
+    },
+    {
+      "id": "lumery-t220",
+      "kind": "text",
+      "tag": "p",
+      "hint": "case-outro",
+      "text": "Next case"
+    },
+    {
+      "id": "lumery-t221",
+      "kind": "text",
+      "tag": "span",
+      "hint": "next-link",
+      "text": "Bitronix"
+    },
+    {
+      "id": "lumery-t222",
+      "kind": "text",
+      "tag": "p",
+      "hint": "case-footer",
+      "text": "Daniil Zinoviev"
+    },
+    {
+      "id": "lumery-t223",
+      "kind": "text",
+      "tag": "p",
+      "hint": "case-footer",
+      "text": "Multidisciplinary Art Director"
+    },
+    {
+      "id": "lumery-t224",
+      "kind": "text",
+      "tag": "a",
+      "hint": "case-footer",
+      "text": "reak1315@gmail.com"
+    },
+    {
+      "id": "lumery-js225",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Lumery app architecture, user scenarios and flow charts in Figma"
+    },
+    {
+      "id": "lumery-js226",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Exploration / App architecture and logic"
+    },
+    {
+      "id": "lumery-js227",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Product logic"
+    },
+    {
+      "id": "lumery-js228",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Architecture before interface"
+    },
+    {
+      "id": "lumery-js229",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "User scenarios, technical implementation, object rules and branching flow charts were mapped before the visual layer."
+    },
+    {
+      "id": "lumery-js230",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "01 / 06"
+    },
+    {
+      "id": "lumery-js231",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Large Lumery wireframe workspace with connected product branches in Figma"
+    },
+    {
+      "id": "lumery-js232",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Exploration / Wireframes and drafts"
+    },
+    {
+      "id": "lumery-js233",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Structural exploration"
+    },
+    {
+      "id": "lumery-js234",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Breadth before polish"
+    },
+    {
+      "id": "lumery-js235",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Onboarding, MyMind, content states, calendar and supporting scenarios were explored as a large working field rather than isolated screens."
+    },
+    {
+      "id": "lumery-js236",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "02 / 06"
+    },
+    {
+      "id": "lumery-js237",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Lumery dark application flow with connected screens in Figma"
+    },
+    {
+      "id": "lumery-js238",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Exploration / Main app flow — dark"
+    },
+    {
+      "id": "lumery-js239",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Connected product flow"
+    },
+    {
+      "id": "lumery-js240",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "From screen sets to behaviour"
+    },
+    {
+      "id": "lumery-js241",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "The main experience connects onboarding, the home surface, AI assistant, profile and the emerging MyMind and MyWorld branches."
+    },
+    {
+      "id": "lumery-js242",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "03 / 06"
+    },
+    {
+      "id": "lumery-js243",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Lumery UI system exploration with color scales, components and states in Figma"
+    },
+    {
+      "id": "lumery-js244",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Exploration / UI system"
+    },
+    {
+      "id": "lumery-js245",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Design system"
+    },
+    {
+      "id": "lumery-js246",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "A language built across themes"
+    },
+    {
+      "id": "lumery-js247",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Grid, color scales, settings, navigation, assistant states and reusable patterns were tested together across dark and light modes."
+    },
+    {
+      "id": "lumery-js248",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "04 / 06"
+    },
+    {
+      "id": "lumery-js249",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Lumery exploration review showing multiple dated interface iterations in Figma"
+    },
+    {
+      "id": "lumery-js250",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Exploration / Review"
+    },
+    {
+      "id": "lumery-js251",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Iteration history"
+    },
+    {
+      "id": "lumery-js252",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Decisions stayed visible"
+    },
+    {
+      "id": "lumery-js253",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Dated review groups preserve how flows evolved, what was compared and how the product moved from dark exploration toward a lighter direction."
+    },
+    {
+      "id": "lumery-js254",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "05 / 06"
+    },
+    {
+      "id": "lumery-js255",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Lumery light theme prototype flow with onboarding, profile and assistant branches in Figma"
+    },
+    {
+      "id": "lumery-js256",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Prototype flows / Main app — light"
+    },
+    {
+      "id": "lumery-js257",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "Prototype structure"
+    },
+    {
+      "id": "lumery-js258",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "One system, many scenarios"
+    },
+    {
+      "id": "lumery-js259",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "The refined prototype brings onboarding, profile, calendar, sources, assistant, MyMind and MyWorld into one connected application map."
+    },
+    {
+      "id": "lumery-js260",
+      "kind": "js",
+      "tag": "script",
+      "hint": "js",
+      "text": "06 / 06"
+    }
+  ]
+}
