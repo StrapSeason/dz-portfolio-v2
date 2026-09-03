@@ -1,1 +1,25 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8" /><meta name="dz-stub" content="phase-1" /><title>lab</title></head><body><p>lab — built in a later phase.</p></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex" />
+  <title>Lab — 3D objects</title>
+  <link rel="icon" href="/media/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/src/styles/tokens.css" /><link rel="stylesheet" href="/src/styles/base.css" /><link rel="stylesheet" href="/src/styles/layout.css" /><link rel="stylesheet" href="/src/styles/components.css" />
+  <style>
+    .lab { padding: var(--space-3) var(--pad); display: grid; gap: var(--space-4); }
+    .scene { display: grid; gap: 10px; }
+    .scene__stage { position: relative; aspect-ratio: 16 / 9; border: 1px solid var(--ink); background: var(--surface); }
+    .scene__stage canvas { position: absolute; inset: 0; width: 100% !important; height: 100% !important; }
+    .scene__meta { display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: var(--step--1); letter-spacing: var(--tracking-label); text-transform: uppercase; color: var(--muted); }
+  </style>
+</head>
+<body class="ground"><div class="page"><main class="lab">
+  <h1 class="display h1">Lab</h1>
+  <section class="scene" data-scene="home"><div class="scene__stage" data-stage></div><div class="scene__meta"><span>home · instrument</span><span data-fps>— fps</span></div></section>
+  <section class="scene" data-scene="lumery"><div class="scene__stage" data-stage></div><div class="scene__meta"><span>lumery · exploded assembly</span><span data-fps>— fps</span></div></section>
+  <section class="scene" data-scene="aleria"><div class="scene__stage" data-stage></div><div class="scene__meta"><span>aleria · lattice</span><span data-fps>— fps</span></div></section>
+  <section class="scene" data-scene="bitronix"><div class="scene__stage" data-stage></div><div class="scene__meta"><span>bitronix · character</span><span data-fps>— fps</span></div></section>
+  <section class="scene" data-scene="every-bali"><div class="scene__stage" data-stage></div><div class="scene__meta"><span>every bali · masterplan</span><span data-fps>— fps</span></div></section>
+</main></div>
+<script type="module" src="/src/pages/lab.js"></script>
+</body></html>

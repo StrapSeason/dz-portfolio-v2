@@ -1,0 +1,33 @@
+{
+  "renderer": "swiftshader (headless)",
+  "scenes": {
+    "home": {
+      "fps": 120.3
+    },
+    "lumery": {
+      "fps": 120.3
+    },
+    "aleria": {
+      "fps": 120.3
+    },
+    "bitronix": {
+      "fps": 120.3
+    },
+    "every-bali": {
+      "fps": 119.3
+    }
+  },
+  "offscreenGating": {
+    "scene": "every-bali",
+    "framesBeforeScroll": 0,
+    "framesAfterScroll": 2
+  },
+  "reducedMotion": {
+    "home": 1,
+    "lumery": 1,
+    "aleria": 1,
+    "bitronix": 1,
+    "every-bali": 1
+  },
+  "pixelRatioCap": true
+}

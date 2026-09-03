@@ -1,0 +1,33 @@
+{
+  "renderer": "gpu (headed)",
+  "scenes": {
+    "home": {
+      "fps": 120
+    },
+    "lumery": {
+      "fps": 120.3
+    },
+    "aleria": {
+      "fps": 120
+    },
+    "bitronix": {
+      "fps": 120.3
+    },
+    "every-bali": {
+      "fps": 120.3
+    }
+  },
+  "offscreenGating": {
+    "scene": "every-bali",
+    "framesBeforeScroll": 0,
+    "framesAfterScroll": 24
+  },
+  "reducedMotion": {
+    "home": 1,
+    "lumery": 1,
+    "aleria": 1,
+    "bitronix": 1,
+    "every-bali": 1
+  },
+  "pixelRatioCap": true
+}
