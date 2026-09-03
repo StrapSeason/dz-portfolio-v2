@@ -10,7 +10,7 @@ for (const p of pages) {
   }
   for (const c of html.matchAll(/href="([^"]+\.css)"/g)) {
     const css = await (await fetch(new URL(c[1], base))).text();
-    for (const m of css.matchAll(/url\((['"]?)([^'")]+)\1\)/g)) if (!/^data:/.test(m[2])) urls.add(new URL(m[2], base).href);
+    for (const m of css.matchAll(/url\((['"]?)([^'")]+)\1\)/g)) if (!/^(data:|#|%23)/.test(m[2])) urls.add(new URL(m[2], base).href);   // '#n' is an SVG filter reference, not a file
   }
 }
 let bad = 0;
